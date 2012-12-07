@@ -36,7 +36,7 @@ public class TheGrind extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.main);
-		mypanel = (Panel) findViewById(R.id.SurfaceView01);
+		mypanel = (Panel) findViewById(R.id.SurfaceView01); 
 		m_adapterForHighScores = new ArrayAdapter<String>(this,
 				android.R.layout.simple_dropdown_item_1line);
 

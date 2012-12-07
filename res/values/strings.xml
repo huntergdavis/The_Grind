@@ -1,1770 +1,1933 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, EasyKittyCensor!</string>
-	<string name="app_name">The Grind</string>
-	<string-array name="equipment">
-		<item>Gold Armor</item>
-		<item>Silver Armor</item>
-		<item>Bronze Armor</item>
-		<item>Gold Sword</item>
-		<item>Gold Shield</item>
-		<item>Bronze Sword</item>
-		<item>Bronze Shield</item>
-		<item>Silver Shield</item>
-		<item>Silver Dagger</item>
-		<item>Kendo Staff</item>
-		<item>Basal readers	</item>
-		<item>Blackboard	</item>
-		<item>Book cabinets	</item>
-		<item>Book and magazine shelves	</item>
-		<item>Bulitin board display	</item>
-		<item>Carpetted floors	</item>
-		<item>Chairs with attached desk	</item>
-		<item>Chalk	</item>
-		<item>Cinder block walls	</item>
-		<item>Clock	</item>
-		<item>Dictionaries	</item>
-		<item>Eraser	</item>
-		<item>File Cabinet	</item>
-		<item>Flag	</item>
-		<item>Flourescent lights	</item>
-		<item>Heating system	</item>
-		<item>Intercom loudspeaker	</item>
-		<item>Projection screen	</item>
-		<item>Sprinkler	</item>
-		<item>Styrofoam ceiling 	</item>
-		<item>Teachers desk	</item>
-		<item>Tiled floors	</item>
-		<item>Venetian blinds	</item>
-		<item>Work counter 	</item>
-		<item>Beans	</item>
-		<item>Bockwurst	</item>
-		<item>Bratwurst	</item>
-		<item>Breads	</item>
-		<item>Cakes	</item>
-		<item>Cater	</item>
-		<item>Cheeses	</item>
-		<item>Chili	</item>
-		<item>Cold Cuts	</item>
-		<item>Dried beef	</item>
-		<item>Dutch loaf	</item>
-		<item>Hams	</item>
-		<item>Kielbasa	</item>
-		<item>Liverwurst	</item>
-		<item>Meat loaf	</item>
-		<item>Pastrami	</item>
-		<item>Pepperoni	</item>
-		<item>Pickles	</item>
-		<item>Pies	</item>
-		<item>Roast Beef	</item>
-		<item>Salami	</item>
-		<item>Sauerkraut	</item>
-		<item>Sausage	</item>
-		<item>Scrabble	</item>
-		<item>Tongue 	</item>
-		<item>Baskets	</item>
-		<item>Calender	</item>
-		<item>Company Directory 	</item>
-		<item>Dictionary	</item>
-		<item>File folders	</item>
-		<item>Materials currently worked on	</item>
-		<item>Notebook	</item>
-		<item>Pen	</item>
-		<item>Pencils	</item>
-		<item>Style Manual	</item>
-		<item>Telephone	</item>
-		<item>Telephone directory	</item>
-		<item>Transcribing Equipment 	</item>
-		<item>Corned Beef	</item>
-		<item>Irish Sweet Orange	</item>
-		<item>Mary Feeneys Partridge	</item>
-		<item>Puffed-Up Cauliflower	</item>
-		<item>Roasted Cock with Prunes	</item>
-		<item>Whiskey Pie	</item>
-		<item>Baked Onion Salad	</item>
-		<item>Carrots a lItalienne	</item>
-		<item>Fegato con Vino	</item>
-		<item>Fried Pumpkin Blossoms	</item>
-		<item>Genoa Pesto	</item>
-		<item>Giannino Lime Broiled Chicken	</item>
-		<item>Green Minestra Soup	</item>
-		<item>Napoli Spinach-Ricotta Lasagne	</item>
-		<item>Osso Buco	</item>
-		<item>Pasta Modena	</item>
-		<item>Peppers in Oil Antipasto	</item>
-		<item>Pork Chops Modena	</item>
-		<item>Risotto	</item>
-		<item>Roman Marinated Artichokes	</item>
-		<item>Roman Noodles	</item>
-		<item>Eggplant Tanaka	</item>
-		<item>Tempura	</item>
-		<item>Tokyo Sukiyaki	</item>
-		<item>Tsukemono (pickled vegetables)	</item>
-		<item>Yakitori (broiled chicken brochette)	</item>
-		<item>Advocaat	</item>
-		<item>Altmaar Potato Special	</item>
-		<item>Bitterballen	</item>
-		<item>Cheese Pancakes	</item>
-		<item>Cream of Cucumber Soup	</item>
-		<item>Dutch Gingerbread	</item>
-		<item>Greenhouse Carrots and Peas	</item>
-		<item>Hussars Salad	</item>
-		<item>Hutspot	</item>
-		<item>Kaassechotel	</item>
-		<item>Leyden Smothered Mushrooms	</item>
-		<item>Marinated Herring	</item>
-		<item>Rice and Fruit Porridge	</item>
-		<item>Slavinken	</item>
-		<item>Applestuvad Potatoes	</item>
-		<item>Butter-Poached Fish Fillets	</item>
-		<item>Cold Citron Chicken	</item>
-		<item>Cold Salmon Superb	</item>
-		<item>Fresh Fillets of Herring with Three Sauces	</item>
-		<item>Fried Parsnips Bergen	</item>
-		<item>Green Suppe	</item>
-		<item>Karinkake	</item>
-		<item>Krumkake	</item>
-		<item>Ludefiske	</item>
-		<item>Norwegian Meatballs	</item>
-		<item>Twisted Cucumber in Sour Cream	</item>
-		<item>Vanilla Boller	</item>
-		<item>Aberdeen Baps	</item>
-		<item>Athol Brose	</item>
-		<item>Cock-a-Leekie Soup	</item>
-		<item>Crisped Golden Whiting	</item>
-		<item>Edinburgh Shortbread	</item>
-		<item>Jugged Lamb	</item>
-		<item>Lamb and Bacon Pie	</item>
-		<item>Midlothian Oatcakes	</item>
-		<item>Poor Mans Goose	</item>
-		<item>Scots Way with Turkey	</item>
-		<item>St. Andrews Grilled Finnan	</item>
-		<item>Strone Favorite Scones	</item>
-		<item>Blueberry Sweet Bread	</item>
-		<item>Buckwheat Bread	</item>
-		<item>Mash and Onions	</item>
-		<item>Oscar Champagne Peaches	</item>
-		<item>Oscar Oranges over Bananas	</item>
-		<item>Oscar Strawberry Pudding	</item>
-		<item>Swedish Eggs over Eggs	</item>
-		<item>Swedish Kalops	</item>
-		<item>Swedish Mumms	</item>
-		<item>Swedish Platter Pan Pancakes	</item>
-		<item>Tomates Concassees	</item>
-		<item>Yellow Pea Soup	</item>
-		<item>Cacen-Gri (Welsh Griddle Scones)	</item>
-		<item>Gin and Grapefruit Sherbet	</item>
-		<item>Very Sociable Welsh Roasted Goose	</item>
-		<item>Welsh Leek Pie	</item>
-		<item>Welsh Leek Soup	</item>
-		<item>1750 Superg Welsh Rarebit	</item>
-		<item>Ball-point and felt-tipped pens	</item>
-		<item>Bond paper for second pages	</item>
-		<item>Carbon paper	</item>
-		<item>Copyholder	</item>
-		<item>Correction fluid	</item>
-		<item>Date stamp and pad 	</item>
-		<item>Desk calender	</item>
-		<item>Dictionary and reference books	</item>
-		<item>Dustcloth	</item>
-		<item>Envelopes	</item>
-		<item>Erasers 	</item>
-		<item>Index cards	</item>
-		<item>Interoffice stationery 	</item>
-		<item>Letter opener	</item>
-		<item>Letterheads	</item>
-		<item>Machine oil	</item>
-		<item>Memo pads	</item>
-		<item>Onionskin paper for copies	</item>
-		<item>Paper clips	</item>
-		<item>Pencil sharpener	</item>
-		<item>Pencils	</item>
-		<item>Plain paper 	</item>
-		<item>Razor blades	</item>
-		<item>Requisition forms	</item>
-		<item>Rubber bands	</item>
-		<item>Rubber cement	</item>
-		<item>Ruler	</item>
-		<item>Scissors	</item>
-		<item>Stapler and staples	</item>
-		<item>Telephone message forms 	</item>
-		<item>Cleaning aerosols (without flourocarbons)	</item>
-		<item>Desoldering braid	</item>
-		<item>Desoldering vacuum	</item>
-		<item>Diagonal-cutting pliars	</item>
-		<item>Flat-tipped screwdrivers	</item>
-		<item>Hex wrenches	</item>
-		<item>Long-nose pliars	</item>
-		<item>Magnetizer/demagnetizer	</item>
-		<item>Miniature butane soldering torch	</item>
-		<item>Multipurpose insulation remover and crimper	</item>
-		<item>Nut drivers	</item>
-		<item>Offset box wrenches	</item>
-		<item>Phillips screwdriver	</item>
-		<item>Pop fiveter	</item>
-		<item>Rosin-core solder	</item>
-		<item>Silver solder	</item>
-		<item>Slip joint (utility) pliars	</item>
-		<item>Soldering iron	</item>
-		<item>Soldering iron stand	</item>
-		<item>Silver solder flux	</item>
-		<item>Torx screwdrivers	</item>
-		<item>Utility knife	</item>
-		<item>Wire stripper 	</item>
-		<item>Ball-cock assembly	</item>
-		<item>Bolt cap	</item>
-		<item>Bowl	</item>
-		<item>Cover	</item>
-		<item>Filler tube	</item>
-		<item>Float arm	</item>
-		<item>Flush	</item>
-		<item>Lift wires	</item>
-		<item>Guide arm	</item>
-		<item>Inlet tube	</item>
-		<item>Overflow tube	</item>
-		<item>Rim	</item>
-		<item>Seat	</item>
-		<item>Shutoff valve	</item>
-		<item>Tank 	</item>
-		<item>Tank ball	</item>
-		<item>Tank lid	</item>
-		<item>Valve seat 	</item>
-		<item>Attache armor pad	</item>
-		<item>Blossom (throwing star)	</item>
-		<item>Boot knife	</item>
-		<item>Bug detectors	</item>
-		<item>Bugs	</item>
-		<item>Camera lighter	</item>
-		<item>Colonial sword cane	</item>
-		<item>Executive picklock set	</item>
-		<item>Flickit (knife)	</item>
-		<item>Shotgun	</item>
-		<item>Colt Agent .38 Special	</item>
-		<item>Heckler and Koch P7	</item>
-		<item>Ingram M/11-380	</item>
-		<item>Sololovsky .45 Automatic	</item>
-		<item>Miniature radio	</item>
-		<item>Night vision viewer	</item>
-		<item>Sap gloves (weighted)	</item>
-		<item>Secret shredder	</item>
-		<item>Sleeve dagger	</item>
-		<item>Telephone analyzer	</item>
-		<item>Telephone voice changer	</item>
-		<item>Urban pal	</item>
-		<item>Voice stress analyzer	</item>
-		<item>Wild hair (knife in comb case) 	</item>
-	</string-array>
 
-	<string-array name="locations">
-		<item>Mordor</item>
-		<item>The Shire</item>
-		<item>The Matrix</item>
-		<item>Anaheim-Santa Ana-Garden Grove</item>
-		<item>Arvin-Lamont</item>
-		<item>Bakersfield</item>
-		<item>Barstow-Victorville</item>
-		<item>Berkeley</item>
-		<item>Berryessa</item>
-		<item>Big Bear</item>
-		<item>Biggs</item>
-		<item>Big Valley</item>
-		<item>Bishop</item>
-		<item>Brawley</item>
-		<item>Briones</item>
-		<item>Burbank</item>
-		<item>Butte Valley</item>
-		<item>Buttonwillow</item>
-		<item>Calabasas</item>
-		<item>Calexico</item>
-		<item>Bedford-Alsasse</item>
-		<item>Calipatria-Westmorland</item>
-		<item>Calistoga</item>
-		<item>Camarillo</item>
-		<item>Carmel</item>
-		<item>Carmel Valley</item>
-		<item>Carpinteria Valley</item>
-		<item>Caruthers-Raisin City</item>
-		<item>Castroville</item>
-		<item>Cathedral City-Palm Desert</item>
-		<item>Central Coast</item>
-		<item>Central Colusa</item>
-		<item>Central Contra Costa</item>
-		<item>Central Shasta</item>
-		<item>Cerritos</item>
-		<item>Chester</item>
-		<item>Chico</item>
-		<item>Chowchilla</item>
-		<item>Chuckwalla</item>
-		<item>Clarksburg</item>
-		<item>Cloverdale-Geyserville</item>
-		<item>Coachella Valley</item>
-		<item>Coalinga</item>
-		<item>Coastal</item>
-		<item>Colfax-Summit</item>
-		<item>Compton</item>
-		<item>Corcoran</item>
-		<item>Corning</item>
-		<item>Corona</item>
-		<item>Coulterville</item>
-		<item>Covelo</item>
-		<item>Crescent City</item>
-		<item>Cuyama</item>
-		<item>Davis</item>
-		<item>Death Valley</item>
-		<item>Delta</item>
-		<item>Desert Hot Springs</item>
-		<item>Diablo Range</item>
-		<item>Dinuba</item>
-		<item>Dixon</item>
-		<item>Donner</item>
-		<item>Dos Palos</item>
-		<item>Downey-Norwalk</item>
-		<item>Dunsmuir</item>
-		<item>Durham</item>
-		<item>Earlimart</item>
-		<item>East Colusa</item>
-		<item>East Contra Costa</item>
-		<item>East Imperial</item>
-		<item>East Kern</item>
-		<item>East San Gabriel Valley</item>
-		<item>East Shasta</item>
-		<item>East Sierra</item>
-		<item>East Sonora-Phoenix Lake</item>
-		<item>East Tehama</item>
-		<item>East Yolo</item>
-		<item>El Centro</item>
-		<item>Elk Grove</item>
-		<item>Elsinore Valley</item>
-		<item>El Toro</item>
-		<item>Escalon</item>
-		<item>Esparto</item>
-		<item>Etna</item>
-		<item>Eureka</item>
-		<item>Exeter</item>
-		<item>Fairfield-Suisun City</item>
-		<item>Fallbrook</item>
-		<item>Feather Falls</item>
-		<item>Felton</item>
-		<item>Ferndale</item>
-		<item>Fillmore-Piru</item>
-		<item>Firebaugh</item>
-		<item>Folsom</item>
-		<item>Foresthill-Back Country</item>
-		<item>Fort Bragg</item>
-		<item>Fort Jones</item>
-		<item>Fortuna</item>
-		<item>Fowler</item>
-		<item>Fremont</item>
-		<item>Fresno</item>
-		<item>Galt</item>
-		<item>Garberville</item>
-		<item>Gilroy</item>
-		<item>Glendale</item>
-		<item>Gonzales</item>
-		<item>Graeagle</item>
-		<item>Grass Valley</item>
-		<item>Greenfield</item>
-		<item>Greenfield-Panama</item>
-		<item>Greenville</item>
-		<item>Gridley</item>
-		<item>Groveland</item>
-		<item>Guadalupe</item>
-		<item>Gustine</item>
-		<item>Hanford</item>
-		<item>Hanford Northeast</item>
-		<item>Happy Camp</item>
-		<item>Hayfork</item>
-		<item>Hayward</item>
-		<item>Healdsburg</item>
-		<item>Hemet-San Jacinto</item>
-		<item>Hilmar-Irwin</item>
-		<item>Hollister</item>
-		<item>Holtville</item>
-		<item>Honey Lake</item>
-		<item>Hopland</item>
-		<item>Hornbrook-Hilt</item>
-		<item>Hughson</item>
-		<item>Huron</item>
-		<item>Idyllwild</item>
-		<item>Imperial</item>
-		<item>Independence</item>
-		<item>Inglewood</item>
-		<item>Ione</item>
-		<item>Ivanhoe</item>
-		<item>Jackson</item>
-		<item>Jamul</item>
-		<item>Jurupa</item>
-		<item>Kerman</item>
-		<item>King City</item>
-		<item>Kingsburg</item>
-		<item>Klamath</item>
-		<item>Knights Landing</item>
-		<item>Laguna-Pine Valley</item>
-		<item>Lake Isabella</item>
-		<item>Lake Mathews</item>
-		<item>Lakeport</item>
-		<item>Lake Tahoe</item>
-		<item>Las Posas</item>
-		<item>Laton</item>
-		<item>Laytonville-Leggett</item>
-		<item>Lemoore</item>
-		<item>Lexington</item>
-		<item>Linda</item>
-		<item>Linda Rural</item>
-		<item>Linden-Farmington</item>
-		<item>Lindsay</item>
-		<item>Live Oak</item>
-		<item>Livermore-Pleasanton</item>
-		<item>Livingston-Delhi</item>
-		<item>Llagas-Uvas</item>
-		<item>Lockeford</item>
-		<item>Lodi</item>
-		<item>Lompoc Valley</item>
-		<item>Lone Pine</item>
-		<item>Long Beach-Lakewood</item>
-		<item>Loomis Basin-Folsom Lake</item>
-		<item>Los Angeles</item>
-		<item>Los Banos</item>
-		<item>Los Padres</item>
-		<item>Lower Lake-Middletown</item>
-		<item>Lower Trinity</item>
-		<item>McCloud-Medicine Lake</item>
-		<item>McFarland-Delano</item>
-		<item>Madeline Plains</item>
-		<item>Madera</item>
-		<item>Madera Southeast</item>
-		<item>Madera West</item>
-		<item>Mad River</item>
-		<item>Manteca</item>
-		<item>Mariposa</item>
-		<item>Markleeville</item>
-		<item>Marysville</item>
-		<item>Marysville Rural</item>
-		<item>Mather</item>
-		<item>Meiners Oaks-Ojai</item>
-		<item>Mendocino-Anderson</item>
-		<item>Mendota</item>
-		<item>Merced</item>
-		<item>Meridian-Robbins</item>
-		<item>Modesto</item>
-		<item>Mono North</item>
-		<item>Mono South</item>
-		<item>Montague</item>
-		<item>Moorpark</item>
-		<item>Mountain Empire</item>
-		<item>Mount Baldy-Wrightwood</item>
-		<item>Mount Shasta</item>
-		<item>Murrieta</item>
-		<item>Napa</item>
-		<item>Needles</item>
-		<item>Nevada City</item>
-		<item>Newberry-Baker</item>
-		<item>New Cuyama</item>
-		<item>Newhall</item>
-		<item>Newman</item>
-		<item>Norco</item>
-		<item>North Antelope Valley</item>
-		<item>North Coast</item>
-		<item>North Coast</item>
-		<item>North Coastal</item>
-		<item>Northeast Marin</item>
-		<item>North El Dorado</item>
-		<item>North Fork</item>
-		<item>Northwest Marin</item>
-		<item>Oakdale</item>
-		<item>Oakhurst</item>
-		<item>Oakland</item>
-		<item>Oceanside-Escondido</item>
-		<item>Olivehurst</item>
-		<item>Ontario</item>
-		<item>Orange Cove</item>
-		<item>Orland</item>
-		<item>Orosi-Cutler</item>
-		<item>Oroville</item>
-		<item>Oxnard</item>
-		<item>Pajaro</item>
-		<item>Palermo</item>
-		<item>Palm Springs</item>
-		<item>Palomar-Julian</item>
-		<item>Palos Verdes</item>
-		<item>Palo Verde</item>
-		<item>Paradise</item>
-		<item>Parlier-Del Rey</item>
-		<item>Pasadena</item>
-		<item>Paso Robles</item>
-		<item>Patterson</item>
-		<item>Pauma Valley</item>
-		<item>Pendleton</item>
-		<item>Perris Valley</item>
-		<item>Petaluma</item>
-		<item>Pine Grove-Silver Lake</item>
-		<item>Pixley</item>
-		<item>Placerville</item>
-		<item>Planada-Le Grand</item>
-		<item>Point Arena</item>
-		<item>Porterville</item>
-		<item>Portola</item>
-		<item>Quincy</item>
-		<item>Ramona</item>
-		<item>Red Bluff</item>
-		<item>Redding-Anderson</item>
-		<item>Red Mountain-Trona</item>
-		<item>Redwood-Potter</item>
-		<item>Reedley</item>
-		<item>Rio Vista</item>
-		<item>Ripon</item>
-		<item>Riverdale</item>
-		<item>Riverside</item>
-		<item>Rosedale</item>
-		<item>Roseville</item>
-		<item>Ross Valley</item>
-		<item>Russian River-Coastal</item>
-		<item>Sacramento</item>
-		<item>Sacramento Canyon</item>
-		<item>Saint Helena</item>
-		<item>Salida</item>
-		<item>Salinas</item>
-		<item>San Andreas</item>
-		<item>San Ardo</item>
-		<item>San Benito-Bitterwater</item>
-		<item>San Bernardino</item>
-		<item>San Diego</item>
-		<item>San Francisco</item>
-		<item>Sanger</item>
-		<item>San Gorgonio Pass</item>
-		<item>San Joaquin-Tranquillity</item>
-		<item>San Jose</item>
-		<item>San Juan Bautista</item>
-		<item>San Lorenzo Valley</item>
-		<item>San Luis Obispo</item>
-		<item>San Mateo</item>
-		<item>San Rafael</item>
-		<item>Santa Barbara</item>
-		<item>Santa Cruz</item>
-		<item>Santa Maria Valley</item>
-		<item>Santa Monica</item>
-		<item>Santa Paula</item>
-		<item>Santa Rosa</item>
-		<item>Santa Ynez Valley</item>
-		<item>Seaside</item>
-		<item>Seaside-Monterey</item>
-		<item>Sebastopol</item>
-		<item>Selma</item>
-		<item>Shafter</item>
-		<item>Sierra</item>
-		<item>Simi Valley</item>
-		<item>Sloughhouse</item>
-		<item>Smith River-Gasquet</item>
-		<item>Snelling</item>
-		<item>Soledad</item>
-		<item>Sonoma</item>
-		<item>Sonora</item>
-		<item>South Antelope Valley</item>
-		<item>South Bay Cities</item>
-		<item>South Coast</item>
-		<item>South Coastside</item>
-		<item>Southeast</item>
-		<item>Southeast Marin</item>
-		<item>South El Dorado</item>
-		<item>South Lake Tahoe</item>
-		<item>South San Francisco</item>
-		<item>South Sutter</item>
-		<item>Southwest Marin</item>
-		<item>Southwest San Gabriel Valley</item>
-		<item>Southwest Shasta</item>
-		<item>Springville-Johnsondale</item>
-		<item>Stanislaus-Yosemite</item>
-		<item>Stockton</item>
-		<item>Stratford</item>
-		<item>Strathmore</item>
-		<item>Surprise Valley</item>
-		<item>Susanville</item>
-		<item>Sutter</item>
-		<item>Sutter Creek-Plymouth</item>
-		<item>Tassajara</item>
-		<item>Tehachapi</item>
-		<item>Terra Bella</item>
-		<item>Thornton</item>
-		<item>Thousand Oaks</item>
-		<item>Tipton</item>
-		<item>Toro</item>
-		<item>Torrance</item>
-		<item>Trabuco</item>
-		<item>Tracy</item>
-		<item>Trinity-Klamath</item>
-		<item>Triunfo Pass-Coastal</item>
-		<item>Tulare</item>
-		<item>Tule Lake</item>
-		<item>Tulelake</item>
-		<item>Turlock</item>
-		<item>Twain Harte-Tuolumne City</item>
-		<item>Twentynine Palms-Morongo Valley</item>
-		<item>Ukiah</item>
-		<item>Upper Lake-Clearlake Oaks</item>
-		<item>Upper San Gabriel Valley</item>
-		<item>Vacaville</item>
-		<item>Vallejo</item>
-		<item>Valley Center</item>
-		<item>Ventura</item>
-		<item>Visalia</item>
-		<item>Wasco</item>
-		<item>Waterford</item>
-		<item>Watsonville</item>
-		<item>Weaverville</item>
-		<item>Weed</item>
-		<item>West Colusa</item>
-		<item>West Contra Costa</item>
-		<item>West Imperial</item>
-		<item>West Point-Wilseyville</item>
-		<item>Westport</item>
-		<item>West Santa Clara</item>
-		<item>Westside</item>
-		<item>West Sierra</item>
-		<item>West Tehama</item>
-		<item>West Valley</item>
-		<item>Westwood</item>
-		<item>Wheatland</item>
-		<item>White Water</item>
-		<item>Whittier</item>
-		<item>Willits</item>
-		<item>Willows</item>
-		<item>Winterhaven-Bard</item>
-		<item>Winters</item>
-		<item>Woodlake-Three Rivers</item>
-		<item>Woodland</item>
-		<item>Yosemite</item>
-		<item>Yreka</item>
-		<item>Yuba City</item>
-		<item>Yuba Foothills</item>
-		<item>Yuba Rural</item>
-		<item>Yucaipa</item>
-		<item>Alameda County</item>
-		<item>Alpine County</item>
-		<item>Amador County</item>
-		<item>Butte County</item>
-		<item>Calaveras County</item>
-		<item>Colusa County</item>
-		<item>Contra Costa County</item>
-		<item>Del Norte County</item>
-		<item>El Dorado County</item>
-		<item>Fresno County</item>
-		<item>Glenn County</item>
-		<item>Humboldt County</item>
-		<item>Imperial County</item>
-		<item>Inyo County</item>
-		<item>Kern County</item>
-		<item>Kings County</item>
-		<item>Lake County</item>
-		<item>Lassen County</item>
-		<item>Los Angeles County</item>
-		<item>Madera County</item>
-		<item>Marin County</item>
-		<item>Mariposa County</item>
-		<item>Mendocino County</item>
-		<item>Merced County</item>
-		<item>Modoc County</item>
-		<item>Mono County</item>
-		<item>Monterey County</item>
-		<item>Napa County</item>
-		<item>Nevada County</item>
-		<item>Orange County</item>
-		<item>Placer County</item>
-		<item>Plumas County</item>
-		<item>Riverside County</item>
-		<item>Sacramento County</item>
-		<item>San Benito County</item>
-		<item>San Bernardino County</item>
-		<item>San Diego County</item>
-		<item>San Francisco County</item>
-		<item>San Joaquin County</item>
-		<item>San Luis Obispo County</item>
-		<item>San Mateo County</item>
-		<item>Santa Barbara County</item>
-		<item>Santa Clara County</item>
-		<item>Santa Cruz County</item>
-		<item>Shasta County</item>
-		<item>Sierra County</item>
-		<item>Siskiyou County</item>
-		<item>Solano County</item>
-		<item>Sonoma County</item>
-		<item>Stanislaus County</item>
-		<item>Sutter County</item>
-		<item>Tehama County</item>
-		<item>Trinity County</item>
-		<item>Tulare County</item>
-		<item>Tuolumne County</item>
-		<item>Ventura County</item>
-		<item>Yolo County</item>
-		<item>Yuba County</item>
-	</string-array>
+    <string name="hello">Hello World, EasyKittyCensor!</string>
+    <string name="app_name">The Grind</string>
 
-	<string-array name="questincidentals">
-		<item>Talking to villagers</item>
-		<item>Talking to priests</item>
-		<item>Searching for valuables</item>
-		<item>Searching for traps</item>
-		<item>question the villagers</item>
-		<item>search the woods</item>
-		<item>interrogate the prisoners</item>
-		<item>search for traps</item>
-		<item>search for weapons</item>
-		<item>trade with the villagers</item>
-		<item>build a fort</item>
-		<item>collect the magic stones</item>
-		<item>read a magic book</item>
-		<item>read a book</item>
-		<item>drink a beer</item>
-		<item>bury the dead</item>
-		<item>visit the stockade</item>
-		<item>guard the tower</item>
-		<item>swim in river</item>
-		<item>swim in the lake</item>
-		<item>sail a boat</item>
-		<item>see a ghost</item>
-		<item>ring the church bells</item>
-		<item>buy magic jewelry</item>
-		<item>buy jewelry</item>
-		<item>search the field</item>
-		<item>search the mine</item>
-		<item>search the lake</item>
-		<item>climb a tree</item>
-		<item>buy weapons</item>
-		<item>buy potions</item>
-		<item>roast a pig</item>
-		<item>eat food</item>
-		<item>collect herbs</item>
-		<item>make medicine</item>
-		<item>grow a garden</item>
-		<item>get drunk</item>
-		<item>puke</item>
-		<item>grow tired</item>
-		<item>smoke a pipe</item>
-		<item>dance a jig</item>
-		<item>dance with a partner</item>
-		<item>laugh at a jester</item>
-		<item>bow to the king</item>
-		<item>bow to the queen</item>
-		<item>search the desert</item>
-		<item>float downriver</item>
-		<item>swim upriver</item>
-		<item>run through the grass</item>
-		<item>cross the moat</item>
-		<item>cross a bridge</item>
-		<item>build a bridge</item>
-		<item>dig a moat</item>
-<item>ride a boat</item>
-<item>sing a song</item>
-<item>dance a dance</item>
-	</string-array>
+    <string-array name="equipment">
+        <item>Gold Armor</item>
+        <item>Silver Armor</item>
+        <item>Bronze Armor</item>
+        <item>Gold Sword</item>
+        <item>Gold Shield</item>
+        <item>Bronze Sword</item>
+        <item>Bronze Shield</item>
+        <item>Silver Shield</item>
+        <item>Silver Dagger</item>
+        <item>Kendo Staff</item>
+        <item>Basal readers</item>
+        <item>Blackboard</item>
+        <item>Book cabinets</item>
+        <item>Book and magazine shelves</item>
+        <item>Bulitin board display</item>
+        <item>Carpetted floors</item>
+        <item>Chairs with attached desk</item>
+        <item>Chalk</item>
+        <item>Cinder block walls</item>
+        <item>Clock</item>
+        <item>Dictionaries</item>
+        <item>Eraser</item>
+        <item>File Cabinet</item>
+        <item>Flag</item>
+        <item>Flourescent lights</item>
+        <item>Heating system</item>
+        <item>Intercom loudspeaker</item>
+        <item>Projection screen</item>
+        <item>Sprinkler</item>
+        <item>Styrofoam ceiling </item>
+        <item>Teachers desk</item>
+        <item>Tiled floors</item>
+        <item>Venetian blinds</item>
+        <item>Work counter </item>
+        <item>Beans</item>
+        <item>Bockwurst</item>
+        <item>Bratwurst</item>
+        <item>Breads</item>
+        <item>Cakes</item>
+        <item>Cater</item>
+        <item>Cheeses</item>
+        <item>Chili</item>
+        <item>Cold Cuts</item>
+        <item>Dried beef</item>
+        <item>Dutch loaf</item>
+        <item>Hams</item>
+        <item>Kielbasa</item>
+        <item>Liverwurst</item>
+        <item>Meat loaf</item>
+        <item>Pastrami</item>
+        <item>Pepperoni</item>
+        <item>Pickles</item>
+        <item>Pies</item>
+        <item>Roast Beef</item>
+        <item>Salami</item>
+        <item>Sauerkraut</item>
+        <item>Sausage</item>
+        <item>Scrabble</item>
+        <item>Tongue </item>
+        <item>Baskets</item>
+        <item>Calender</item>
+        <item>Company Directory </item>
+        <item>Dictionary</item>
+        <item>File folders</item>
+        <item>Materials currently worked on</item>
+        <item>Notebook</item>
+        <item>Pen</item>
+        <item>Pencils</item>
+        <item>Style Manual</item>
+        <item>Telephone</item>
+        <item>Telephone directory</item>
+        <item>Transcribing Equipment </item>
+        <item>Corned Beef</item>
+        <item>Irish Sweet Orange</item>
+        <item>Mary Feeneys Partridge</item>
+        <item>Puffed-Up Cauliflower</item>
+        <item>Roasted Cock with Prunes</item>
+        <item>Whiskey Pie</item>
+        <item>Baked Onion Salad</item>
+        <item>Carrots a lItalienne</item>
+        <item>Fegato con Vino</item>
+        <item>Fried Pumpkin Blossoms</item>
+        <item>Genoa Pesto</item>
+        <item>Giannino Lime Broiled Chicken</item>
+        <item>Green Minestra Soup</item>
+        <item>Napoli Spinach-Ricotta Lasagne</item>
+        <item>Osso Buco</item>
+        <item>Pasta Modena</item>
+        <item>Peppers in Oil Antipasto</item>
+        <item>Pork Chops Modena</item>
+        <item>Risotto</item>
+        <item>Roman Marinated Artichokes</item>
+        <item>Roman Noodles</item>
+        <item>Eggplant Tanaka</item>
+        <item>Tempura</item>
+        <item>Tokyo Sukiyaki</item>
+        <item>Tsukemono (pickled vegetables)</item>
+        <item>Yakitori (broiled chicken brochette)</item>
+        <item>Advocaat</item>
+        <item>Altmaar Potato Special</item>
+        <item>Bitterballen</item>
+        <item>Cheese Pancakes</item>
+        <item>Cream of Cucumber Soup</item>
+        <item>Dutch Gingerbread</item>
+        <item>Greenhouse Carrots and Peas</item>
+        <item>Hussars Salad</item>
+        <item>Hutspot</item>
+        <item>Kaassechotel</item>
+        <item>Leyden Smothered Mushrooms</item>
+        <item>Marinated Herring</item>
+        <item>Rice and Fruit Porridge</item>
+        <item>Slavinken</item>
+        <item>Applestuvad Potatoes</item>
+        <item>Butter-Poached Fish Fillets</item>
+        <item>Cold Citron Chicken</item>
+        <item>Cold Salmon Superb</item>
+        <item>Fresh Fillets of Herring with Three Sauces</item>
+        <item>Fried Parsnips Bergen</item>
+        <item>Green Suppe</item>
+        <item>Karinkake</item>
+        <item>Krumkake</item>
+        <item>Ludefiske</item>
+        <item>Norwegian Meatballs</item>
+        <item>Twisted Cucumber in Sour Cream</item>
+        <item>Vanilla Boller</item>
+        <item>Aberdeen Baps</item>
+        <item>Athol Brose</item>
+        <item>Cock-a-Leekie Soup</item>
+        <item>Crisped Golden Whiting</item>
+        <item>Edinburgh Shortbread</item>
+        <item>Jugged Lamb</item>
+        <item>Lamb and Bacon Pie</item>
+        <item>Midlothian Oatcakes</item>
+        <item>Poor Mans Goose</item>
+        <item>Scots Way with Turkey</item>
+        <item>St. Andrews Grilled Finnan</item>
+        <item>Strone Favorite Scones</item>
+        <item>Blueberry Sweet Bread</item>
+        <item>Buckwheat Bread</item>
+        <item>Mash and Onions</item>
+        <item>Oscar Champagne Peaches</item>
+        <item>Oscar Oranges over Bananas</item>
+        <item>Oscar Strawberry Pudding</item>
+        <item>Swedish Eggs over Eggs</item>
+        <item>Swedish Kalops</item>
+        <item>Swedish Mumms</item>
+        <item>Swedish Platter Pan Pancakes</item>
+        <item>Tomates Concassees</item>
+        <item>Yellow Pea Soup</item>
+        <item>Cacen-Gri (Welsh Griddle Scones)</item>
+        <item>Gin and Grapefruit Sherbet</item>
+        <item>Very Sociable Welsh Roasted Goose</item>
+        <item>Welsh Leek Pie</item>
+        <item>Welsh Leek Soup</item>
+        <item>1750 Superg Welsh Rarebit</item>
+        <item>Ball-point and felt-tipped pens</item>
+        <item>Bond paper for second pages</item>
+        <item>Carbon paper</item>
+        <item>Copyholder</item>
+        <item>Correction fluid</item>
+        <item>Date stamp and pad </item>
+        <item>Desk calender</item>
+        <item>Dictionary and reference books</item>
+        <item>Dustcloth</item>
+        <item>Envelopes</item>
+        <item>Erasers </item>
+        <item>Index cards</item>
+        <item>Interoffice stationery </item>
+        <item>Letter opener</item>
+        <item>Letterheads</item>
+        <item>Machine oil</item>
+        <item>Memo pads</item>
+        <item>Onionskin paper for copies</item>
+        <item>Paper clips</item>
+        <item>Pencil sharpener</item>
+        <item>Pencils</item>
+        <item>Plain paper </item>
+        <item>Razor blades</item>
+        <item>Requisition forms</item>
+        <item>Rubber bands</item>
+        <item>Rubber cement</item>
+        <item>Ruler</item>
+        <item>Scissors</item>
+        <item>Stapler and staples</item>
+        <item>Telephone message forms </item>
+        <item>Cleaning aerosols (without flourocarbons)</item>
+        <item>Desoldering braid</item>
+        <item>Desoldering vacuum</item>
+        <item>Diagonal-cutting pliars</item>
+        <item>Flat-tipped screwdrivers</item>
+        <item>Hex wrenches</item>
+        <item>Long-nose pliars</item>
+        <item>Magnetizer/demagnetizer</item>
+        <item>Miniature butane soldering torch</item>
+        <item>Multipurpose insulation remover and crimper</item>
+        <item>Nut drivers</item>
+        <item>Offset box wrenches</item>
+        <item>Phillips screwdriver</item>
+        <item>Pop fiveter</item>
+        <item>Rosin-core solder</item>
+        <item>Silver solder</item>
+        <item>Slip joint (utility) pliars</item>
+        <item>Soldering iron</item>
+        <item>Soldering iron stand</item>
+        <item>Silver solder flux</item>
+        <item>Torx screwdrivers</item>
+        <item>Utility knife</item>
+        <item>Wire stripper </item>
+        <item>Ball-cock assembly</item>
+        <item>Bolt cap</item>
+        <item>Bowl</item>
+        <item>Cover</item>
+        <item>Filler tube</item>
+        <item>Float arm</item>
+        <item>Flush</item>
+        <item>Lift wires</item>
+        <item>Guide arm</item>
+        <item>Inlet tube</item>
+        <item>Overflow tube</item>
+        <item>Rim</item>
+        <item>Seat</item>
+        <item>Shutoff valve</item>
+        <item>Tank </item>
+        <item>Tank ball</item>
+        <item>Tank lid</item>
+        <item>Valve seat </item>
+        <item>Attache armor pad</item>
+        <item>Blossom (throwing star)</item>
+        <item>Boot knife</item>
+        <item>Bug detectors</item>
+        <item>Bugs</item>
+        <item>Camera lighter</item>
+        <item>Colonial sword cane</item>
+        <item>Executive picklock set</item>
+        <item>Flickit (knife)</item>
+        <item>Shotgun</item>
+        <item>Colt Agent .38 Special</item>
+        <item>Heckler and Koch P7</item>
+        <item>Ingram M/11-380</item>
+        <item>Sololovsky .45 Automatic</item>
+        <item>Miniature radio</item>
+        <item>Night vision viewer</item>
+        <item>Sap gloves (weighted)</item>
+        <item>Secret shredder</item>
+        <item>Sleeve dagger</item>
+        <item>Telephone analyzer</item>
+        <item>Telephone voice changer</item>
+        <item>Urban pal</item>
+        <item>Voice stress analyzer</item>
+        <item>Wild hair (knife in comb case) </item>
+    </string-array>
+    <string-array name="locations">
+        <item>Mordor</item>
+        <item>The Shire</item>
+        <item>The Matrix</item>
+        <item>Anaheim-Santa Ana-Garden Grove</item>
+        <item>Arvin-Lamont</item>
+        <item>Bakersfield</item>
+        <item>Barstow-Victorville</item>
+        <item>Berkeley</item>
+        <item>Berryessa</item>
+        <item>Big Bear</item>
+        <item>Biggs</item>
+        <item>Big Valley</item>
+        <item>Bishop</item>
+        <item>Brawley</item>
+        <item>Briones</item>
+        <item>Burbank</item>
+        <item>Butte Valley</item>
+        <item>Buttonwillow</item>
+        <item>Calabasas</item>
+        <item>Calexico</item>
+        <item>Bedford-Alsasse</item>
+        <item>Calipatria-Westmorland</item>
+        <item>Calistoga</item>
+        <item>Camarillo</item>
+        <item>Carmel</item>
+        <item>Carmel Valley</item>
+        <item>Carpinteria Valley</item>
+        <item>Caruthers-Raisin City</item>
+        <item>Castroville</item>
+        <item>Cathedral City-Palm Desert</item>
+        <item>Central Coast</item>
+        <item>Central Colusa</item>
+        <item>Central Contra Costa</item>
+        <item>Central Shasta</item>
+        <item>Cerritos</item>
+        <item>Chester</item>
+        <item>Chico</item>
+        <item>Chowchilla</item>
+        <item>Chuckwalla</item>
+        <item>Clarksburg</item>
+        <item>Cloverdale-Geyserville</item>
+        <item>Coachella Valley</item>
+        <item>Coalinga</item>
+        <item>Coastal</item>
+        <item>Colfax-Summit</item>
+        <item>Compton</item>
+        <item>Corcoran</item>
+        <item>Corning</item>
+        <item>Corona</item>
+        <item>Coulterville</item>
+        <item>Covelo</item>
+        <item>Crescent City</item>
+        <item>Cuyama</item>
+        <item>Davis</item>
+        <item>Death Valley</item>
+        <item>Delta</item>
+        <item>Desert Hot Springs</item>
+        <item>Diablo Range</item>
+        <item>Dinuba</item>
+        <item>Dixon</item>
+        <item>Donner</item>
+        <item>Dos Palos</item>
+        <item>Downey-Norwalk</item>
+        <item>Dunsmuir</item>
+        <item>Durham</item>
+        <item>Earlimart</item>
+        <item>East Colusa</item>
+        <item>East Contra Costa</item>
+        <item>East Imperial</item>
+        <item>East Kern</item>
+        <item>East San Gabriel Valley</item>
+        <item>East Shasta</item>
+        <item>East Sierra</item>
+        <item>East Sonora-Phoenix Lake</item>
+        <item>East Tehama</item>
+        <item>East Yolo</item>
+        <item>El Centro</item>
+        <item>Elk Grove</item>
+        <item>Elsinore Valley</item>
+        <item>El Toro</item>
+        <item>Escalon</item>
+        <item>Esparto</item>
+        <item>Etna</item>
+        <item>Eureka</item>
+        <item>Exeter</item>
+        <item>Fairfield-Suisun City</item>
+        <item>Fallbrook</item>
+        <item>Feather Falls</item>
+        <item>Felton</item>
+        <item>Ferndale</item>
+        <item>Fillmore-Piru</item>
+        <item>Firebaugh</item>
+        <item>Folsom</item>
+        <item>Foresthill-Back Country</item>
+        <item>Fort Bragg</item>
+        <item>Fort Jones</item>
+        <item>Fortuna</item>
+        <item>Fowler</item>
+        <item>Fremont</item>
+        <item>Fresno</item>
+        <item>Galt</item>
+        <item>Garberville</item>
+        <item>Gilroy</item>
+        <item>Glendale</item>
+        <item>Gonzales</item>
+        <item>Graeagle</item>
+        <item>Grass Valley</item>
+        <item>Greenfield</item>
+        <item>Greenfield-Panama</item>
+        <item>Greenville</item>
+        <item>Gridley</item>
+        <item>Groveland</item>
+        <item>Guadalupe</item>
+        <item>Gustine</item>
+        <item>Hanford</item>
+        <item>Hanford Northeast</item>
+        <item>Happy Camp</item>
+        <item>Hayfork</item>
+        <item>Hayward</item>
+        <item>Healdsburg</item>
+        <item>Hemet-San Jacinto</item>
+        <item>Hilmar-Irwin</item>
+        <item>Hollister</item>
+        <item>Holtville</item>
+        <item>Honey Lake</item>
+        <item>Hopland</item>
+        <item>Hornbrook-Hilt</item>
+        <item>Hughson</item>
+        <item>Huron</item>
+        <item>Idyllwild</item>
+        <item>Imperial</item>
+        <item>Independence</item>
+        <item>Inglewood</item>
+        <item>Ione</item>
+        <item>Ivanhoe</item>
+        <item>Jackson</item>
+        <item>Jamul</item>
+        <item>Jurupa</item>
+        <item>Kerman</item>
+        <item>King City</item>
+        <item>Kingsburg</item>
+        <item>Klamath</item>
+        <item>Knights Landing</item>
+        <item>Laguna-Pine Valley</item>
+        <item>Lake Isabella</item>
+        <item>Lake Mathews</item>
+        <item>Lakeport</item>
+        <item>Lake Tahoe</item>
+        <item>Las Posas</item>
+        <item>Laton</item>
+        <item>Laytonville-Leggett</item>
+        <item>Lemoore</item>
+        <item>Lexington</item>
+        <item>Linda</item>
+        <item>Linda Rural</item>
+        <item>Linden-Farmington</item>
+        <item>Lindsay</item>
+        <item>Live Oak</item>
+        <item>Livermore-Pleasanton</item>
+        <item>Livingston-Delhi</item>
+        <item>Llagas-Uvas</item>
+        <item>Lockeford</item>
+        <item>Lodi</item>
+        <item>Lompoc Valley</item>
+        <item>Lone Pine</item>
+        <item>Long Beach-Lakewood</item>
+        <item>Loomis Basin-Folsom Lake</item>
+        <item>Los Angeles</item>
+        <item>Los Banos</item>
+        <item>Los Padres</item>
+        <item>Lower Lake-Middletown</item>
+        <item>Lower Trinity</item>
+        <item>McCloud-Medicine Lake</item>
+        <item>McFarland-Delano</item>
+        <item>Madeline Plains</item>
+        <item>Madera</item>
+        <item>Madera Southeast</item>
+        <item>Madera West</item>
+        <item>Mad River</item>
+        <item>Manteca</item>
+        <item>Mariposa</item>
+        <item>Markleeville</item>
+        <item>Marysville</item>
+        <item>Marysville Rural</item>
+        <item>Mather</item>
+        <item>Meiners Oaks-Ojai</item>
+        <item>Mendocino-Anderson</item>
+        <item>Mendota</item>
+        <item>Merced</item>
+        <item>Meridian-Robbins</item>
+        <item>Modesto</item>
+        <item>Mono North</item>
+        <item>Mono South</item>
+        <item>Montague</item>
+        <item>Moorpark</item>
+        <item>Mountain Empire</item>
+        <item>Mount Baldy-Wrightwood</item>
+        <item>Mount Shasta</item>
+        <item>Murrieta</item>
+        <item>Napa</item>
+        <item>Needles</item>
+        <item>Nevada City</item>
+        <item>Newberry-Baker</item>
+        <item>New Cuyama</item>
+        <item>Newhall</item>
+        <item>Newman</item>
+        <item>Norco</item>
+        <item>North Antelope Valley</item>
+        <item>North Coast</item>
+        <item>North Coast</item>
+        <item>North Coastal</item>
+        <item>Northeast Marin</item>
+        <item>North El Dorado</item>
+        <item>North Fork</item>
+        <item>Northwest Marin</item>
+        <item>Oakdale</item>
+        <item>Oakhurst</item>
+        <item>Oakland</item>
+        <item>Oceanside-Escondido</item>
+        <item>Olivehurst</item>
+        <item>Ontario</item>
+        <item>Orange Cove</item>
+        <item>Orland</item>
+        <item>Orosi-Cutler</item>
+        <item>Oroville</item>
+        <item>Oxnard</item>
+        <item>Pajaro</item>
+        <item>Palermo</item>
+        <item>Palm Springs</item>
+        <item>Palomar-Julian</item>
+        <item>Palos Verdes</item>
+        <item>Palo Verde</item>
+        <item>Paradise</item>
+        <item>Parlier-Del Rey</item>
+        <item>Pasadena</item>
+        <item>Paso Robles</item>
+        <item>Patterson</item>
+        <item>Pauma Valley</item>
+        <item>Pendleton</item>
+        <item>Perris Valley</item>
+        <item>Petaluma</item>
+        <item>Pine Grove-Silver Lake</item>
+        <item>Pixley</item>
+        <item>Placerville</item>
+        <item>Planada-Le Grand</item>
+        <item>Point Arena</item>
+        <item>Porterville</item>
+        <item>Portola</item>
+        <item>Quincy</item>
+        <item>Ramona</item>
+        <item>Red Bluff</item>
+        <item>Redding-Anderson</item>
+        <item>Red Mountain-Trona</item>
+        <item>Redwood-Potter</item>
+        <item>Reedley</item>
+        <item>Rio Vista</item>
+        <item>Ripon</item>
+        <item>Riverdale</item>
+        <item>Riverside</item>
+        <item>Rosedale</item>
+        <item>Roseville</item>
+        <item>Ross Valley</item>
+        <item>Russian River-Coastal</item>
+        <item>Sacramento</item>
+        <item>Sacramento Canyon</item>
+        <item>Saint Helena</item>
+        <item>Salida</item>
+        <item>Salinas</item>
+        <item>San Andreas</item>
+        <item>San Ardo</item>
+        <item>San Benito-Bitterwater</item>
+        <item>San Bernardino</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>Sanger</item>
+        <item>San Gorgonio Pass</item>
+        <item>San Joaquin-Tranquillity</item>
+        <item>San Jose</item>
+        <item>San Juan Bautista</item>
+        <item>San Lorenzo Valley</item>
+        <item>San Luis Obispo</item>
+        <item>San Mateo</item>
+        <item>San Rafael</item>
+        <item>Santa Barbara</item>
+        <item>Santa Cruz</item>
+        <item>Santa Maria Valley</item>
+        <item>Santa Monica</item>
+        <item>Santa Paula</item>
+        <item>Santa Rosa</item>
+        <item>Santa Ynez Valley</item>
+        <item>Seaside</item>
+        <item>Seaside-Monterey</item>
+        <item>Sebastopol</item>
+        <item>Selma</item>
+        <item>Shafter</item>
+        <item>Sierra</item>
+        <item>Simi Valley</item>
+        <item>Sloughhouse</item>
+        <item>Smith River-Gasquet</item>
+        <item>Snelling</item>
+        <item>Soledad</item>
+        <item>Sonoma</item>
+        <item>Sonora</item>
+        <item>South Antelope Valley</item>
+        <item>South Bay Cities</item>
+        <item>South Coast</item>
+        <item>South Coastside</item>
+        <item>Southeast</item>
+        <item>Southeast Marin</item>
+        <item>South El Dorado</item>
+        <item>South Lake Tahoe</item>
+        <item>South San Francisco</item>
+        <item>South Sutter</item>
+        <item>Southwest Marin</item>
+        <item>Southwest San Gabriel Valley</item>
+        <item>Southwest Shasta</item>
+        <item>Springville-Johnsondale</item>
+        <item>Stanislaus-Yosemite</item>
+        <item>Stockton</item>
+        <item>Stratford</item>
+        <item>Strathmore</item>
+        <item>Surprise Valley</item>
+        <item>Susanville</item>
+        <item>Sutter</item>
+        <item>Sutter Creek-Plymouth</item>
+        <item>Tassajara</item>
+        <item>Tehachapi</item>
+        <item>Terra Bella</item>
+        <item>Thornton</item>
+        <item>Thousand Oaks</item>
+        <item>Tipton</item>
+        <item>Toro</item>
+        <item>Torrance</item>
+        <item>Trabuco</item>
+        <item>Tracy</item>
+        <item>Trinity-Klamath</item>
+        <item>Triunfo Pass-Coastal</item>
+        <item>Tulare</item>
+        <item>Tule Lake</item>
+        <item>Tulelake</item>
+        <item>Turlock</item>
+        <item>Twain Harte-Tuolumne City</item>
+        <item>Twentynine Palms-Morongo Valley</item>
+        <item>Ukiah</item>
+        <item>Upper Lake-Clearlake Oaks</item>
+        <item>Upper San Gabriel Valley</item>
+        <item>Vacaville</item>
+        <item>Vallejo</item>
+        <item>Valley Center</item>
+        <item>Ventura</item>
+        <item>Visalia</item>
+        <item>Wasco</item>
+        <item>Waterford</item>
+        <item>Watsonville</item>
+        <item>Weaverville</item>
+        <item>Weed</item>
+        <item>West Colusa</item>
+        <item>West Contra Costa</item>
+        <item>West Imperial</item>
+        <item>West Point-Wilseyville</item>
+        <item>Westport</item>
+        <item>West Santa Clara</item>
+        <item>Westside</item>
+        <item>West Sierra</item>
+        <item>West Tehama</item>
+        <item>West Valley</item>
+        <item>Westwood</item>
+        <item>Wheatland</item>
+        <item>White Water</item>
+        <item>Whittier</item>
+        <item>Willits</item>
+        <item>Willows</item>
+        <item>Winterhaven-Bard</item>
+        <item>Winters</item>
+        <item>Woodlake-Three Rivers</item>
+        <item>Woodland</item>
+        <item>Yosemite</item>
+        <item>Yreka</item>
+        <item>Yuba City</item>
+        <item>Yuba Foothills</item>
+        <item>Yuba Rural</item>
+        <item>Yucaipa</item>
+        <item>Alameda County</item>
+        <item>Alpine County</item>
+        <item>Amador County</item>
+        <item>Butte County</item>
+        <item>Calaveras County</item>
+        <item>Colusa County</item>
+        <item>Contra Costa County</item>
+        <item>Del Norte County</item>
+        <item>El Dorado County</item>
+        <item>Fresno County</item>
+        <item>Glenn County</item>
+        <item>Humboldt County</item>
+        <item>Imperial County</item>
+        <item>Inyo County</item>
+        <item>Kern County</item>
+        <item>Kings County</item>
+        <item>Lake County</item>
+        <item>Lassen County</item>
+        <item>Los Angeles County</item>
+        <item>Madera County</item>
+        <item>Marin County</item>
+        <item>Mariposa County</item>
+        <item>Mendocino County</item>
+        <item>Merced County</item>
+        <item>Modoc County</item>
+        <item>Mono County</item>
+        <item>Monterey County</item>
+        <item>Napa County</item>
+        <item>Nevada County</item>
+        <item>Orange County</item>
+        <item>Placer County</item>
+        <item>Plumas County</item>
+        <item>Riverside County</item>
+        <item>Sacramento County</item>
+        <item>San Benito County</item>
+        <item>San Bernardino County</item>
+        <item>San Diego County</item>
+        <item>San Francisco County</item>
+        <item>San Joaquin County</item>
+        <item>San Luis Obispo County</item>
+        <item>San Mateo County</item>
+        <item>Santa Barbara County</item>
+        <item>Santa Clara County</item>
+        <item>Santa Cruz County</item>
+        <item>Shasta County</item>
+        <item>Sierra County</item>
+        <item>Siskiyou County</item>
+        <item>Solano County</item>
+        <item>Sonoma County</item>
+        <item>Stanislaus County</item>
+        <item>Sutter County</item>
+        <item>Tehama County</item>
+        <item>Trinity County</item>
+        <item>Tulare County</item>
+        <item>Tuolumne County</item>
+        <item>Ventura County</item>
+        <item>Yolo County</item>
+        <item>Yuba County</item>
+        <item>Herat</item>
+        <item>Kabul</item>
+        <item>Mazar-e Sharif</item>
+        <item>Korce</item>
+        <item>Tirane</item>
+        <item>Algiers</item>
+        <item>Skikda</item>
+        <item>Oran</item>
+        <item>Ouled Djellal</item>
+        <item>Mascara</item>
+        <item>Annaba</item>
+        <item>Pago Pago</item>
+        <item>Andorra La Vella</item>
+        <item>Escaldes</item>
+        <item>Benguela</item>
+        <item>Sumbe</item>
+        <item>Lubango</item>
+        <item>Luanda</item>
+        <item>Luanda</item>
+        <item>The Valley</item>
+        <item>Molodesjnaja</item>
+        <item>Reading</item>
+        <item>McMurdo Station</item>
+        <item>Saint Johns</item>
+        <item>Falmouth</item>
+        <item>Bahia Blanca</item>
+        <item>Berazategui</item>
+        <item>Caseros</item>
+        <item>Castelar</item>
+        <item>Chacabuco</item>
+        <item>Ezeiza</item>
+        <item>Haedo</item>
+        <item>Jose Leon Suarez</item>
+        <item>La Plata</item>
+        <item>Lomas De Zamora</item>
+        <item>Mar del Plata</item>
+        <item>Miramar</item>
+        <item>Pinamar</item>
+        <item>Ramos Mejia</item>
+        <item>Salto</item>
+        <item>San Clemente del Tuyú</item>
+        <item>San Isidro</item>
+        <item>San Martin</item>
+        <item>Tres Arroyos</item>
+        <item>Turdera</item>
+        <item>Puerto Madryn</item>
+        <item>Trelew</item>
+        <item>Cordoba</item>
+        <item>Marcos Juárez</item>
+        <item>Rio Tercero</item>
+        <item>Villa María</item>
+        <item>Corrientes</item>
+        <item>Paso de los Libres</item>
+        <item>Buenos Aires</item>
+        <item>Concordia</item>
+        <item>Crespo</item>
+        <item>Gualeguaychu</item>
+        <item>Paraná</item>
+        <item>San Rafael</item>
+        <item>Santa Rosa</item>
+        <item>Luján de Cuyo</item>
+        <item>Malargüe</item>
+        <item>Mendoza</item>
+        <item>Cipolletti</item>
+        <item>Neuquen</item>
+        <item>Bariloche</item>
+        <item>General Roca</item>
+        <item>Resistencia</item>
+        <item>Salta</item>
+        <item>San Juan</item>
+        <item>Rio Cuarto</item>
+        <item>Ceres</item>
+        <item>Reconquista </item>
+        <item>Rosario</item>
+        <item>Santa Fe</item>
+        <item>Suardi</item>
+        <item>Santiago del Estero</item>
+        <item>Ushuaia</item>
+        <item>San Miguel de Tucuman</item>
+        <item>Vanadzor</item>
+        <item>Gyumri</item>
+        <item>Spitak</item>
+        <item>Yerevan</item>
+        <item>Oranjestad</item>
+        <item>Ascot Vale</item>
+        <item>Bacchus Marsh</item>
+        <item>Bairnsdale</item>
+        <item>Ballarat</item>
+        <item>Bayswater</item>
+        <item>Bendigo</item>
+        <item>Berwick</item>
+        <item>Boolarra</item>
+        <item>Bright</item>
+        <item>Cape Otway</item>
+        <item>Castlemaine</item>
+        <item>Chelsea</item>
+        <item>Cheltenham</item>
+        <item>Cobram</item>
+        <item>Dandenong</item>
+        <item>Deer Park</item>
+        <item>Diamond Creek</item>
+        <item>Echuca</item>
+        <item>Eltham</item>
+        <item>Frankston</item>
+        <item>Geelong</item>
+        <item>Hamilton</item>
+        <item>Hawthorn</item>
+        <item>Horsham</item>
+        <item>Hurstbridge</item>
+        <item>Maryborough</item>
+        <item>Melbourne</item>
+        <item>Mildura</item>
+        <item>Moe</item>
+        <item>Mooroolbark</item>
+        <item>Mornington</item>
+        <item>Morwell</item>
+        <item>Narre Warren</item>
+        <item>Newstead</item>
+        <item>Noble Park</item>
+        <item>Northcote</item>
+        <item>Nunawading</item>
+        <item>Portland</item>
+        <item>Prahran</item>
+        <item>Preston</item>
+        <item>Red Cliffs</item>
+        <item>Sale</item>
+        <item>Shepparton</item>
+        <item>Sorrento</item>
+        <item>South Yarra</item>
+        <item>Sunbury</item>
+        <item>Sunshine</item>
+        <item>Swan Hill</item>
+        <item>Traralgon</item>
+        <item>Wangaratta</item>
+        <item>Warrnambool</item>
+        <item>Wilsons Promontory</item>
+        <item>Wodonga</item>
+        <item>Burnie</item>
+        <item>Campbell Town</item>
+        <item>Claremont</item>
+        <item>Devonport</item>
+        <item>George Town</item>
+        <item>Glenorchy</item>
+        <item>Hobart</item>
+        <item>Launceston</item>
+        <item>Penguin</item>
+        <item>Strahan</item>
+        <item>Wynyard</item>
+        <item>Zeehan</item>
+        <item>Abbeywood</item>
+        <item>Abbotsford</item>
+        <item>Brisbane Adelaide Street</item>
+        <item>Brisbane Market</item>
+        <item>Broadbeach</item>
+    </string-array>
+    <string-array name="questincidentals">
+        <item>Talking to villagers</item>
+        <item>Talking to priests</item>
+        <item>Searching for valuables</item>
+        <item>Searching for traps</item>
+        <item>question the villagers</item>
+        <item>search the woods</item>
+        <item>interrogate the prisoners</item>
+        <item>search for traps</item>
+        <item>search for weapons</item>
+        <item>trade with the villagers</item>
+        <item>build a fort</item>
+        <item>collect the magic stones</item>
+        <item>read a magic book</item>
+        <item>read a book</item>
+        <item>drink a beer</item>
+        <item>bury the dead</item>
+        <item>visit the stockade</item>
+        <item>guard the tower</item>
+        <item>swim in river</item>
+        <item>swim in the lake</item>
+        <item>sail a boat</item>
+        <item>see a ghost</item>
+        <item>ring the church bells</item>
+        <item>buy magic jewelry</item>
+        <item>buy jewelry</item>
+        <item>search the field</item>
+        <item>search the mine</item>
+        <item>search the lake</item>
+        <item>climb a tree</item>
+        <item>buy weapons</item>
+        <item>buy potions</item>
+        <item>roast a pig</item>
+        <item>eat food</item>
+        <item>collect herbs</item>
+        <item>make medicine</item>
+        <item>grow a garden</item>
+        <item>get drunk</item>
+        <item>puke</item>
+        <item>grow tired</item>
+        <item>smoke a pipe</item>
+        <item>dance a jig</item>
+        <item>dance with a partner</item>
+        <item>laugh at a jester</item>
+        <item>bow to the king</item>
+        <item>bow to the queen</item>
+        <item>search the desert</item>
+        <item>float downriver</item>
+        <item>swim upriver</item>
+        <item>run through the grass</item>
+        <item>cross the moat</item>
+        <item>cross a bridge</item>
+        <item>build a bridge</item>
+        <item>dig a moat</item>
+        <item>ride a boat</item>
+        <item>sing a song</item>
+        <item>dance a dance</item>
+    </string-array>
+    <string-array name="questDescriptions" comment="first ten are intro quests">
+        <item>Saving the princess</item>
+        <item>Doing the royal laundry</item>
+        <item>Learning about true magic</item>
+        <item>Roasting enemies over a spit</item>
+        <item>Searching for better armor</item>
+        <item>Seeking out riches</item>
+        <item>Traveling at night</item>
+        <item>Country hopping</item>
+        <item>Fighting a war</item>
+        <item>Seeking out the jewel of fate</item>
+        <item>Marching on the capital</item>
+        <item>Defending the castle</item>
+        <item>Learning new moves</item>
+        <item>rescue the prince</item>
+        <item>rescue the princess</item>
+        <item>overthrow the evil king</item>
+        <item>overthrow the evil queen</item>
+        <item>slay the dragon</item>
+        <item>Slay the ogre</item>
+        <item>defeat the banshee</item>
+        <item>capture a leprechaun</item>
+        <item>join the elf war</item>
+        <item>win the elf war</item>
+        <item>defeat the demon</item>
+        <item>defeat the evil wizard</item>
+        <item>defeat the witch</item>
+        <item>rescue the kingdom</item>
+        <item>balance the kingdom budget</item>
+        <item>raise the debt ceiling</item>
+        <item>fight the rebels</item>
+        <item>join the rebels</item>
+        <item>lead the rebellion</item>
+        <item>defeat the frost giant</item>
+        <item>defeat the giant</item>
+        <item>raise a dragon</item>
+        <item>hatch a dragon egg</item>
+        <item>clear out a dragon nest</item>
+    </string-array>
+    <string-array name="subquestDescriptions">
+        <item>Meeting villagers</item>
+        <item>Giving high fives all around</item>
+        <item>Arrest the thief</item>
+        <item>arrest the murderer</item>
+        <item>Collect materials for fort</item>
+        <item>defeat the armored guards</item>
+        <item>play games with the children</item>
+        <item>high five the villager</item>
+        <item>flirt with the bartender</item>
+        <item>visit the fortuneteller</item>
+        <item>hunt for food</item>
+        <item>walk the plank</item>
+        <item>visit the pirates</item>
+        <item>trade with the pirates</item>
+        <item>visit a doctor</item>
+        <item>amuse the guards</item>
+        <item>distract the guards</item>
+        <item>drink with the guards</item>
+        <item>treat with diplomats</item>
+        <item>sign a treaty</item>
+        <item>chase the children</item>
+        <item>babysit the children</item>
+        <item>babysit the prince</item>
+        <item>babysit the princess</item>
+        <item>guard a caravan</item>
+        <item>hire a mercenary</item>
+        <item>kill a mercenary</item>
+        <item>visit the wise woman</item>
+        <item>find a magician</item>
+        <item>visit a wizard</item>
+        <item>kiss a noblewoman</item>
+        <item>kiss a nobleman</item>
+        <item>explore the mine</item>
+        <item>summon a demon</item>
+        <item>summon a spirit</item>
+        <item>fly a winged horse</item>
+        <item>ride a horse</item>
+        <item>buy a horse</item>
+        <item>feed a dragon</item>
+        <item>capture a dragon</item>
+        <item>make friends with princess</item>
+        <item>make friends with prince</item>
+        <item>build a castle</item>
+        <item>save an orphan</item>
+    </string-array>
+    <string-array name="enemyDescriptions">
+        <item>Slime</item>
+        <item>Wild Boar</item>
+        <item>Ninja Tiger</item>
+        <item>Tiger</item>
+        <item>Horse Demon</item>
+        <item>Aardvark</item>
+        <item>Aardwolf</item>
+        <item>Abalone</item>
+        <item>Abyssinian cat</item>
+        <item>Abyssinian ground</item>
+        <item>Acacia rat</item>
+        <item>Achilles tang</item>
+        <item>Acorn barnacle</item>
+        <item>Acorn weevil</item>
+        <item>Acorn woodpecker</item>
+        <item>Blue jay</item>
+        <item>Blue whale</item>
+        <item>Bluebird</item>
+        <item>Bluebottle</item>
+        <item>Bluefish</item>
+        <item>Boa</item>
+        <item>Boa constrictor</item>
+        <item>Boar</item>
+        <item>Bobcat</item>
+        <item>Buffalo</item>
+        <item>Bufflehead</item>
+        <item>Bug</item>
+        <item>Bull mastiff</item>
+        <item>Bullfrog</item>
+        <item>Bumblebee</item>
+        <item>Bunny</item>
+        <item>Bunting</item>
+        <item>Burro</item>
+        <item>Bush Baby</item>
+        <item>Bush squeaker</item>
+        <item>Bustard</item>
+        <item>Butterfly</item>
+        <item>Buzzard</item>
+        <item>Cusimanse</item>
+        <item>Cuttlefish</item>
+        <item>dog</item>
+        <item>dolphin</item>
+        <item>duck</item>
+        <item>eagle</item>
+        <item>eagle</item>
+        <item>eagles</item>
+        <item>egrets</item>
+        <item>eidolon</item>
+        <item>eland</item>
+        <item>elephant</item>
+        <item>elephant</item>
+        <item>filefish</item>
+        <item>falcon</item>
+        <item>flamingo</item>
+        <item>flamingo</item>
+        <item>flamingo</item>
+        <item>flying fox</item>
+        <item>fox</item>
+        <item>fox</item>
+        <item>frog</item>
+        <item>frog</item>
+        <item>frogmouth</item>
+        <item>frogs</item>
+        <item>frogs</item>
+        <item>frogs</item>
+        <item>gallinule</item>
+        <item>gars</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gazelle</item>
+        <item>gecko</item>
+        <item>gecko</item>
+        <item>gecko</item>
+        <item>gharial</item>
+        <item>gibbon</item>
+        <item>gibbons</item>
+        <item>Gila monster</item>
+        <item>giraffe</item>
+        <item>goat</item>
+        <item>goose</item>
+        <item>gorilla</item>
+        <item>groupers</item>
+        <item>grunt</item>
+        <item>grunt</item>
+        <item>guineafowl</item>
+        <item>gulls</item>
+        <item>Hackee</item>
+        <item>Haddock</item>
+        <item>Hadrosaurus</item>
+        <item>Hag-fish</item>
+        <item>Hairstreak</item>
+        <item>Hake</item>
+        <item>Halcyon</item>
+        <item>Halibut</item>
+        <item>Halicore</item>
+        <item>Hamadryad</item>
+        <item>Hyrax</item>
+        <item>ibis</item>
+        <item>ibis</item>
+        <item>ibises</item>
+        <item>iguana</item>
+        <item>impala</item>
+        <item>Jabiru</item>
+        <item>Jackal</item>
+        <item>Jackrabbit</item>
+        <item>Jaeger</item>
+        <item>Jaguar</item>
+        <item>Jaguarundi</item>
+        <item>Janenschia</item>
+        <item>Jay</item>
+        <item>Jellyfish</item>
+        <item>Jenny</item>
+        <item>Jerboa</item>
+        <item>Joey</item>
+        <item>John dory</item>
+        <item>Junco</item>
+        <item>June bug</item>
+        <item>kangaroo</item>
+        <item>kingfisher</item>
+        <item>koala</item>
+        <item>kob</item>
+        <item>Komodo dragon</item>
+        <item>kookaburra</item>
+        <item>kudu</item>
+        <item>leafy sea</item>
+        <item>lemur</item>
+        <item>lemur</item>
+        <item>leopard</item>
+        <item>lion</item>
+        <item>lionfish -0</item>
+        <item>lizard</item>
+        <item>lizards</item>
+        <item>llama</item>
+        <item>lookdown</item>
+        <item>lorikeet</item>
+        <item>lory</item>
+        <item>lubber</item>
+        <item>macaw</item>
+        <item>macaws</item>
+        <item>manatees</item>
+        <item>marmoset</item>
+        <item>meerkat</item>
+        <item>merganser</item>
+        <item>milksnake</item>
+        <item>monitor</item>
+        <item>monitor</item>
+        <item>monitor</item>
+        <item>moorhen</item>
+        <item>morays</item>
+        <item>muntjac</item>
+        <item>muntjac</item>
+        <item>mynah</item>
+        <item>Nabarlek</item>
+        <item>Nag</item>
+        <item>Naga</item>
+        <item>Nagapies</item>
+        <item>Naked mole</item>
+        <item>Nandine</item>
+        <item>Nandoo</item>
+        <item>Nandu</item>
+        <item>Narwhal</item>
+        <item>Narwhale</item>
+        <item>Natterjack Toad</item>
+        <item>Nauplius</item>
+        <item>Nautilus</item>
+        <item>Needle fish</item>
+        <item>Needletail</item>
+        <item>Nematode</item>
+        <item>Nene</item>
+        <item>Neon blue</item>
+        <item>Neon blue</item>
+        <item>Neon dwarf</item>
+        <item>Neon rainbow</item>
+        <item>Neon red</item>
+        <item>Neon Tetra</item>
+        <item>Nerka</item>
+        <item>Nettlefish</item>
+        <item>Newfoundland dog</item>
+        <item>Newt</item>
+        <item>Newt Nutria</item>
+        <item>Night crawler</item>
+        <item>Night heron</item>
+        <item>Nighthawk</item>
+        <item>Nightingale</item>
+        <item>Nightjar</item>
+        <item>Nijsseniss dwarf</item>
+        <item>Nilgai</item>
+        <item>Nine banded</item>
+        <item>Noctilio</item>
+        <item>Noctule</item>
+        <item>Noddy</item>
+        <item>Noolbenger</item>
+        <item>Northern cardinals</item>
+        <item>Northern elephant</item>
+        <item>Northern flying</item>
+        <item>Northern fur</item>
+        <item>Northern hairy-nosed</item>
+        <item>Northern pike</item>
+        <item>Northern sea</item>
+        <item>Northern spotted</item>
+        <item>Norway lobster</item>
+        <item>Norway rat</item>
+        <item>Nubian goat</item>
+        <item>Nudibranch</item>
+        <item>Numbat</item>
+        <item>Nurse shark</item>
+        <item>Nutcracker</item>
+        <item>Nuthatch</item>
+        <item>Nutria</item>
+        <item>Nyala</item>
+        <item>Nymph</item>
+        <item>opossum</item>
+        <item>orangutan</item>
+        <item>oryx</item>
+        <item>ostrich</item>
+        <item>otter</item>
+        <item>otter</item>
+        <item>otter</item>
+        <item>otter</item>
+        <item>owl</item>
+        <item>owl</item>
+        <item>panther</item>
+        <item>parakeet</item>
+        <item>parrot</item>
+        <item>parrot</item>
+        <item>parrot</item>
+        <item>parrotfish</item>
+        <item>parrotfish</item>
+        <item>parrots</item>
+        <item>peafowl</item>
+        <item>peccaries</item>
+        <item>pelican</item>
+        <item>penguin</item>
+        <item>penguin</item>
+        <item>penguin</item>
+        <item>penguins</item>
+        <item>pheasant</item>
+        <item>pig</item>
+        <item>pintail</item>
+        <item>piranhas</item>
+        <item>porkfish</item>
+        <item>primates</item>
+        <item>pufferfish -0</item>
+        <item>puffin</item>
+        <item>puffins</item>
+        <item>python</item>
+        <item>python</item>
+        <item>python</item>
+        <item>python</item>
+        <item>Quagga -0</item>
+        <item>Quahog -0</item>
+        <item>Quail -0</item>
+        <item>Queen snake</item>
+        <item>Queen ant</item>
+        <item>Queen bee</item>
+        <item>Quetzal -0</item>
+        <item>Quokka</item>
+        <item>Quoll</item>
+        <item>rabbit</item>
+        <item>raccoons</item>
+        <item>rail</item>
+        <item>rattlesnake</item>
+        <item>rattlesnake</item>
+        <item>rattlesnake</item>
+        <item>ray</item>
+        <item>rays</item>
+        <item>rays</item>
+        <item>rhinoceros</item>
+        <item>rhinoceros</item>
+        <item>salamander</item>
+        <item>sawfishes</item>
+        <item>scorpion</item>
+        <item>sea lion</item>
+        <item>seahorses</item>
+        <item>seal</item>
+        <item>seal</item>
+        <item>seal</item>
+        <item>seal</item>
+        <item>seal</item>
+        <item>seal</item>
+        <item>seals</item>
+        <item>sergeant major</item>
+        <item>serval</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>shark</item>
+        <item>sharks</item>
+        <item>sheep</item>
+        <item>sheep</item>
+        <item>shelduck</item>
+        <item>shelduck</item>
+        <item>shoveler</item>
+        <item>shoveler</item>
+        <item>shoveler</item>
+        <item>skink</item>
+        <item>sloth</item>
+        <item>sloth</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snake</item>
+        <item>snakes</item>
+        <item>snakes</item>
+        <item>spadefish</item>
+        <item>spiders</item>
+        <item>starling</item>
+        <item>starling</item>
+        <item>stilt</item>
+        <item>stork</item>
+        <item>stork</item>
+        <item>sugar glider</item>
+        <item>sunbittern</item>
+        <item>swan</item>
+        <item>swan</item>
+        <item>swan</item>
+        <item>tanager</item>
+        <item>tanager</item>
+        <item>tang</item>
+        <item>tapirs</item>
+        <item>tarsier</item>
+        <item>teal dragon</item>
+        <item>teal tiger</item>
+        <item>teal ninja</item>
+        <item>teal drake</item>
+        <item>teal fighter</item>
+        <item>teal martial artist</item>
+        <item>teal</item>
+        <item>tenrec</item>
+        <item>tiger</item>
+        <item>toad</item>
+        <item>toad</item>
+        <item>tomistoma</item>
+        <item>green tortoise</item>
+        <item>blue tortoise</item>
+        <item>silver tortoise</item>
+        <item>toucan</item>
+        <item>toucan</item>
+        <item>trumpeter</item>
+        <item>turaco</item>
+        <item>turaco</item>
+        <item>turaco</item>
+        <item>turaco</item>
+        <item>turaco</item>
+        <item>turtles</item>
+        <item>Uakari</item>
+        <item>Uganda kob</item>
+        <item>Uinta ground</item>
+        <item>Umbrella bird</item>
+        <item>Umbrette</item>
+        <item>Unau</item>
+        <item>Ungulate</item>
+        <item>Unicorn</item>
+        <item>Upupa</item>
+        <item>Urchin</item>
+        <item>Urial</item>
+        <item>Uromastyx maliensis</item>
+        <item>Uromastyx spinipes</item>
+        <item>Urson</item>
+        <item>Urubu</item>
+        <item>Urus</item>
+        <item>Urutu</item>
+        <item>Urva</item>
+        <item>Utah prairie</item>
+        <item>vaquita</item>
+        <item>vulture</item>
+        <item>vulture</item>
+        <item>vulture</item>
+        <item>vultures</item>
+        <item>vultures</item>
+        <item>Vampire bat</item>
+        <item>Vaquita</item>
+        <item>Veery</item>
+        <item>Velociraptor</item>
+        <item>Velvet crab</item>
+        <item>Velvet worm</item>
+        <item>Venomous snake</item>
+        <item>Verdin</item>
+        <item>Vervet</item>
+        <item>Vicuna</item>
+        <item>Viper</item>
+        <item>Viper squid</item>
+        <item>Viperfish</item>
+        <item>Vireo</item>
+        <item>Virginia opossum</item>
+        <item>Vixen</item>
+        <item>Vole</item>
+        <item>Volvox</item>
+        <item>Vulpes Velox</item>
+        <item>Vulpes Vulpes</item>
+        <item>X-Ray fish</item>
+        <item>X-Ray tetra</item>
+        <item>Xanclomys</item>
+        <item>Xanthareel</item>
+        <item>Xantus</item>
+        <item>Xantus murrelet</item>
+        <item>Xeme</item>
+        <item>Xenarthra</item>
+        <item>Xenoposeidon</item>
+        <item>Xenops</item>
+        <item>Xenopterygii</item>
+        <item>Xenopus</item>
+        <item>Xenotarsosaurus</item>
+        <item>Xenurine</item>
+        <item>Xenurus unicinctus</item>
+        <item>Xerus</item>
+        <item>Xiaosaurus</item>
+        <item>Xinjiangovenator</item>
+        <item>Xiphias</item>
+        <item>Xiphias gladius</item>
+        <item>Xiphosuran</item>
+        <item>Xoloitzcuintli</item>
+        <item>Xoni</item>
+        <item>Xuanhanosaurus</item>
+        <item>Xuanhuaceratops</item>
+        <item>Xuanhuasaurus</item>
+        <item>Yaffle</item>
+        <item>Yak</item>
+        <item>Yapok</item>
+        <item>Yard ant</item>
+        <item>Yearling</item>
+        <item>Yellow bellied</item>
+        <item>Yellow belly</item>
+        <item>Yellowhammer</item>
+        <item>Yellowjacket</item>
+        <item>Yellowlegs</item>
+        <item>Yellowthroat</item>
+        <item>Yeti</item>
+        <item>Ynambu</item>
+        <item>Yorkshire terrier</item>
+        <item>Yosemite toad</item>
+        <item>Yucker</item>
+        <item>walrus</item>
+        <item>warthog</item>
+        <item>waterbuck</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whale</item>
+        <item>whales</item>
+        <item>whales</item>
+        <item>wigeon</item>
+        <item>wigeon</item>
+        <item>wildebeest</item>
+        <item>wolf</item>
+        <item>wolf</item>
+        <item>Zander</item>
+        <item>Zanzibar day</item>
+        <item>Zebra</item>
+        <item>Zebra dove</item>
+        <item>Zebra finch</item>
+        <item>Zebra-tailed lizard</item>
+        <item>Zebrafish</item>
+        <item>Zebu</item>
+        <item>Zenaida</item>
+        <item>Zeren</item>
+        <item>Zethus spinipes</item>
+        <item>Zethus wasp</item>
+        <item>ZigZag salamander</item>
+        <item>Zone-tailed pigeon</item>
+        <item>Zooplankton</item>
+        <item>Zopilote</item>
+        <item>Zorilla</item>
+    </string-array>
+    <string-array name="healing">
+        <item>healing potion</item>
+        <item>healing ray</item>
+        <item>jar of healing</item>
+        <item>healing salve</item>
+        <item>medicated herb</item>
+        <item>medicated salve</item>
+        <item>x-ray juice</item>
+        <item>hard liquer</item>
+        <item>pills</item>
+        <item>sandwhich</item>
+        <item>milkshake</item>
+        <item>ice cream</item>
+        <item>cake</item>
+        <item>bandages</item>
+        <item>splint</item>
+        <item>gene splice</item>
+    </string-array>
+    <string-array name="magichealing">
+        <item>magic potion</item>
+        <item>magic up ray</item>
+        <item>jar of magic juice</item>
+        <item>magic salve</item>
+        <item>magic herb</item>
+        <item>magic lamp</item>
+        <item>fairy dust</item>
+        <item>magic dust</item>
+        <item>magic beans</item>
+        <item>dark material</item>
+        <item>flame powder</item>
+    </string-array>
+    <string-array name="metals">
+        <item>tin</item>
+        <item>green</item>
+        <item>iron</item>
+        <item>heavy</item>
+        <item>jagged</item>
+        <item>silver</item>
+        <item>tepin</item>
+        <item>nocturn</item>
+        <item>ancient</item>
+        <item>gold</item>
+        <item>latinum</item>
+        <item>folded</item>
+        <item>glowing</item>
+        <item>mithril</item>
+        <item>Hydrogen</item>
+        <item>Lithium</item>
+        <item>Sodium</item>
+        <item>Potassium</item>
+        <item>Rubidium</item>
+        <item>Cesium</item>
+        <item>Francium</item>
+        <item>Beryllium</item>
+        <item>Magnesium</item>
+        <item>Calcium</item>
+        <item>Strontium</item>
+        <item>Barium</item>
+        <item>Radium</item>
+        <item>Aluminum</item>
+        <item>Gallium</item>
+        <item>Indium</item>
+        <item>Tin</item>
+        <item>Thallium</item>
+        <item>Lead</item>
+        <item>Bismuth</item>
+        <item>Ununtrium</item>
+        <item>Ununquadium</item>
+        <item>Ununpentium</item>
+        <item>Ununhexium</item>
+        <item>Scandium</item>
+        <item>Titanium</item>
+        <item>Vanadium</item>
+        <item>Chromium</item>
+        <item>Manganese</item>
+        <item>Iron</item>
+        <item>Cobalt</item>
+        <item>Nickel</item>
+        <item>Copper</item>
+        <item>Zinc</item>
+        <item>Yttrium</item>
+        <item>Zirconium</item>
+        <item>Niobium</item>
+        <item>Molybdenum</item>
+        <item>Technetium</item>
+        <item>Ruthenium</item>
+        <item>Rhodium</item>
+        <item>Palladium</item>
+        <item>Silver</item>
+        <item>Cadmium</item>
+        <item>Lanthanum</item>
+        <item>Hafnium</item>
+        <item>Tantalum</item>
+        <item>Tungsten</item>
+        <item>Rhenium</item>
+        <item>Osmium</item>
+        <item>Iridium</item>
+        <item>Platinum</item>
+        <item>Gold</item>
+        <item>Mercury</item>
+        <item>Actinium</item>
+        <item>Rutherfordium</item>
+        <item>Dubnium</item>
+        <item>Seaborgium</item>
+        <item>Bohrium</item>
+        <item>Hassium</item>
+        <item>Meitnerium</item>
+        <item>Darmstadtium</item>
+        <item>Roentgenium</item>
+        <item>Ununbium</item>
+        <item>Cerium</item>
+        <item>Praseodymium</item>
+        <item>Neodymium</item>
+        <item>Promethium</item>
+        <item>Samarium</item>
+        <item>Europium</item>
+        <item>Gadolinium</item>
+        <item>Terbium</item>
+        <item>Dysprosium</item>
+        <item>Holmium</item>
+        <item>Erbium</item>
+        <item>Thulium</item>
+        <item>Ytterbium</item>
+        <item>Lutetium</item>
+        <item>Thorium</item>
+        <item>Protactinium</item>
+        <item>Uranium</item>
+        <item>Neptunium</item>
+        <item>Plutonium</item>
+        <item>Americium</item>
+        <item>Curium</item>
+        <item>Berkelium</item>
+        <item>Californium</item>
+        <item>Einsteinium</item>
+        <item>Fermium</item>
+        <item>Mendelevium</item>
+        <item>Nobelium</item>
+        <item>Lawrencium</item>
+    </string-array>
+    <string-array name="maritalstatus">
+        <item>Single</item>
+        <item>Dating</item>
+        <item>Playing</item>
+        <item>Divorced</item>
+        <item>Remarried</item>
+        <item>Married</item>
+        <item>Cheating</item>
+        <item>Polygamy</item>
+        <item>Spiritual</item>
+        <item>Beyond</item>
+    </string-array>
+    <string-array name="spells">
+        <item>Meteor</item>
+        <item>Fireball</item>
+        <item>Ice Wind</item>
+        <item>Lightning Storm</item>
+        <item>Ninja Smoke</item>
+        <item>Ninja Stars</item>
+        <item>Ninja Darts</item>
+        <item>Fire Storm</item>
+        <item>Prism</item>
+        <item>Ice Blast</item>
+        <item>Barrier Wave</item>
+        <item>Quake</item>
+        <item>Tsunami</item>
+        <item>Wave</item>
+        <item>Beam</item>
+        <item>Particle</item>
+        <item>Blast</item>
+        <item>Sparks</item>
+        <item>Shimmer</item>
+        <item>Shine</item>
+        <item>Light Blast</item>
+        <item>Heavy Rain</item>
+        <item>Ultima</item>
+        <item>Dompos four incredulity</item>
+        <item>Izminaxs vicarious inertia</item>
+        <item>Lazedeiass migratory Siberia</item>
+        <item>Tsapalts ponderous clearance</item>
+        <item>The spell of soft horn</item>
+        <item>Kellerdons outrageous debate</item>
+        <item>Eloerladas mercenary blame</item>
+        <item>Tobeds vernal restorative</item>
+        <item>Yodeizaras venal tiger</item>
+        <item>The charm of attentive room</item>
+        <item>Lazubekols anomalous tobacco</item>
+        <item>Virlemus near lamentation</item>
+        <item>Croldolors obsequious reversion</item>
+        <item>Zoitzedess contingent interference</item>
+        <item>The agency of normal bribe</item>
+        <item>Scanes abnormal nature</item>
+        <item>Ekinxiskas capillary magician</item>
+        <item>Gezzancens mendacious image</item>
+        <item>Rubellas owing ambiguity</item>
+        <item>The spell of gigantic decease</item>
+        <item>Metols corporeal incredulity</item>
+        <item>Goileshmis subservient silhouette</item>
+        <item>Ekives family genealogy</item>
+        <item>Florravens articulate law</item>
+        <item>The call of the close gap</item>
+        <item>Thingarks maternal fashion</item>
+        <item>Pharres-Ts epic boom</item>
+        <item>Kilaurtads bent carnation</item>
+        <item>Bizarks responsive catalysis</item>
+        <item>The pattern of vehement creek</item>
+        <item>Ingoldres incessant tenacity</item>
+        <item>Osadars orthodox tone</item>
+        <item>Porriarmos sibilant directory</item>
+        <item>Sandurgols some null</item>
+        <item>The agency of bizarre rector</item>
+        <item>Cazkinarts livid menace</item>
+        <item>Javnas arbitrary beadle</item>
+        <item>Sandalos particular repetition</item>
+        <item>Etorrits poor stupefaction</item>
+        <item>The spell of exempt reign</item>
+        <item>Izottols illegal memory</item>
+        <item>Aments circular inexperience</item>
+        <item>Embardis volatile clearance</item>
+        <item>Ilifers prompt shade</item>
+        <item>The pattern of practicable quota</item>
+        <item>Rodaluskis actual muzzle</item>
+        <item>Assellunts coarse protest</item>
+        <item>Barras present inadequacy</item>
+        <item>Beiassels inadequate exception</item>
+        <item>The agency of gratis cheer</item>
+        <item>Sapurks rampant hydra</item>
+        <item>Isusos wistful demon</item>
+        <item>Ospentikos shoal sin</item>
+        <item>Zabarress floating apathy</item>
+        <item>The pattern of sharp volunteer</item>
+        <item>Mendiorais positive reception</item>
+        <item>Dilkajunus subservient tribe</item>
+        <item>Vulets connubial third</item>
+        <item>Olenaks indifferent magnitude</item>
+        <item>The spell of terminal oneself</item>
+        <item>Padlisteis corporate find</item>
+        <item>Jauneraurs fatty injustice</item>
+        <item>Uzundos elephantine empathy</item>
+        <item>Firaunerss concrete barb</item>
+        <item>The pattern of ajar desire</item>
+        <item>Krezzars wary midshipman</item>
+        <item>Hibandis endemic lubricity</item>
+        <item>Adesulks leaky increase</item>
+        <item>Bobartarts explicit field</item>
+        <item>The agency of ominous nostril</item>
+        <item>Nahols hearty principle</item>
+        <item>Iakivens alternate debate</item>
+        <item>GVass scholastic load</item>
+        <item>Zilkos turgid score</item>
+        <item>The pattern of distinct restoration</item>
+        <item>Burins scandalous conveyance</item>
+        <item>Twantss incessant archipelago</item>
+        <item>Oierengots retroactive acquittal</item>
+        <item>Santzs prerequisite flame</item>
+        <item>The pattern of discretionary salute</item>
+        <item>Kevors simple herself</item>
+        <item>Gazdartids chocolate size</item>
+        <item>Amulchends cloven resolve</item>
+        <item>Lapoulis courageous impropriety</item>
+        <item>The charm of hospitable relic</item>
+        <item>Lerghuss hairy bigot</item>
+        <item>Laumpodos tiresome oath</item>
+        <item>Bobels exuberant completion</item>
+        <item>Pielios slick murmur</item>
+        <item>The charm of devoid voracity</item>
+        <item>Urthes different partner</item>
+        <item>Fronids ephemeral leisure</item>
+        <item>Scanetins remote escort</item>
+        <item>Vastarts barbarous zip</item>
+        <item>The agency of extravagant bubble</item>
+        <item>Petarsks alternate start</item>
+        <item>Zohirkatvs loose terrace</item>
+        <item>Eddivees recurring conduit</item>
+        <item>Iztorkous acid revise</item>
+        <item>The spell of bipartite cloud</item>
+        <item>Airives high glory</item>
+        <item>Irrens flagrant cameraman</item>
+        <item>Garaiortzs straight flight</item>
+        <item>Munda-Yims deep autumn</item>
+        <item>The call of the insolvent sunshade</item>
+        <item>Perlendis wooden sweat</item>
+        <item>Illojuntzs preposterous lullaby</item>
+        <item>Falders complementary trefoil</item>
+        <item>Walarks private instance</item>
+        <item>The agency of gainful squall</item>
+        <item>Baurustes indefensible opal</item>
+        <item>Amurikeres chivalrous need</item>
+        <item>Meltzs eminent calorimeter</item>
+        <item>Lalunkwiss extramural simplicity</item>
+        <item>The pattern of trim debtor</item>
+        <item>Egurensais addled soul</item>
+        <item>Totzags praiseworthy egotism</item>
+        <item>Gartzankos happy size</item>
+        <item>Illarths peaceful latitude</item>
+        <item>The agency of conic climax</item>
+        <item>Urkals declamatory emissary</item>
+        <item>Ihaventuns orthodox compromise</item>
+        <item>Sharandas bay zenith</item>
+        <item>Itundars noisy lacquer</item>
+        <item>The call of the final compromise</item>
+        <item>Tibaws mild sunrise</item>
+        <item>Kandals tolerant noise</item>
+        <item>Maunts luxuriant dove</item>
+        <item>Xaratzs sappy chain</item>
+        <item>The charm of blatant cable</item>
+        <item>Ferbinas parabolic hinge</item>
+        <item>Peldars cheap execution</item>
+        <item>Landushmis erratic concern</item>
+        <item>Anarritads shrunk polyglot</item>
+        <item>The call of the little rate</item>
+        <item>Mahois collateral forfeiture</item>
+        <item>Lartsoizs profane inventor</item>
+        <item>Clazens carbonaceous excitation</item>
+        <item>Pularitors white obstinacy</item>
+        <item>The spell of hungry adhesion</item>
+        <item>Agellestas perpendicular inversion</item>
+        <item>Wiulkaitzs preponderant conclusive</item>
+        <item>Hibaws single dash</item>
+        <item>Kilins limpid ingestion</item>
+        <item>The call of the certain appearance</item>
+        <item>Glastes absolute marsh</item>
+        <item>Mercasifas over governor</item>
+        <item>Motzesthis quiet excursion</item>
+        <item>Urthers clamorous lug</item>
+        <item>The agency of indefinite lotion</item>
+        <item>Egurgoizas drowsy novelty</item>
+        <item>Egunce-Los foxy kink</item>
+        <item>Dholos irreclaimable homogeneity</item>
+        <item>Lancks abrasive neglect</item>
+        <item>The call of the collateral analysis</item>
+        <item>Nuxkis marine hindrance</item>
+        <item>Hodonixs dependent return</item>
+        <item>Anennelles cadaverous enormity</item>
+        <item>Igoramls intermittent lamb</item>
+        <item>The charm of immeasurable definition</item>
+        <item>Symarizs raw contrast</item>
+        <item>Thakins backward allowance</item>
+        <item>Pulkolos dynamic gore</item>
+        <item>Peroms imponderable patron</item>
+        <item>The pattern of eighth metaphor</item>
+        <item>Jastarkors clamorous wheel</item>
+        <item>Aztarks illegible allowance</item>
+        <item>Alarrikos future blight</item>
+        <item>Tipinas sincere myself</item>
+        <item>The charm of incorporate scratch</item>
+        <item>Adartses impelled claimant</item>
+        <item>Blumaivves quizzical multitude</item>
+        <item>Khules decimal slime</item>
+        <item>Ubautzions sear alliance</item>
+        <item>The spell of imponderable hook</item>
+        <item>Rogois wholesale pullover</item>
+        <item>Turgaides illegitimate cattle</item>
+        <item>Claithars phosphoric burro</item>
+        <item>Bazens troublesome sauce</item>
+        <item>The spell of ineradicable outlawry</item>
+        <item>Tchandos invariable renewal</item>
+        <item>Corattolds hospitable disc</item>
+        <item>Chaggids legendary paean</item>
+        <item>Julaels sappy scythe</item>
+        <item>The pattern of prostrate round</item>
+        <item>Sarkas bluff novice</item>
+        <item>Turumps numismatic voyage</item>
+        <item>Atzeles mercenary carnage</item>
+        <item>Sanderes pliant group</item>
+        <item>The charm of fiendish stint</item>
+        <item>Jasajaetzs swampy enemy</item>
+        <item>Clados succinct measure</item>
+        <item>Bordouscs suspicious usurer</item>
+        <item>Ihakus sound chance</item>
+        <item>The call of the cosmopolitan wag</item>
+        <item>Atazkatuns delicate aura</item>
+        <item>Foldoinos rural Hessian</item>
+        <item>Dibaisters humble surprise</item>
+        <item>Darvilixs intransitive rivalry</item>
+        <item>The charm of acrid cartilage</item>
+        <item>Mupurs qualified contrast</item>
+        <item>Baltzs ubiquitous courier</item>
+        <item>Voyens sagacious skeptic</item>
+        <item>Borbes local growth</item>
+        <item>The agency of permissive normalcy</item>
+        <item>Hurroskis false pantomime</item>
+        <item>Ferdars dexter cordon</item>
+        <item>Duangerres loose muslin</item>
+        <item>Atsuns victorious referee</item>
+        <item>The spell of greasy border</item>
+        <item>Fialts paternal bite</item>
+        <item>Joskajaets pliant essay</item>
+        <item>Lizaiankes cosy original</item>
+        <item>Tsaspros omniscient butterfly</item>
+        <item>The agency of loquacious controversy</item>
+        <item>Emedoriors catalytic attendant</item>
+        <item>Semaizilis irrelevant desuetude</item>
+        <item>Josais murky expedition</item>
+        <item>Smourgiors episcopal relief</item>
+        <item>The call of the mineral variety</item>
+        <item>Cilfingens tuneful inquisition</item>
+        <item>Ibonfos ominous malaria</item>
+        <item>Asterwales resonant ornament</item>
+        <item>Sunitzis impalpable wholesale</item>
+        <item>The call of the dead intrusion</item>
+        <item>Teobers dewy nutmeg</item>
+        <item>Varras transalpine puppet</item>
+        <item>Iskales novel contradistinction</item>
+        <item>Alesoithus discordant paragraph</item>
+        <item>The call of the impervious retention</item>
+        <item>Marteios antipodean opponent</item>
+        <item>Pomartaxts precedent world</item>
+        <item>Deobers felicitous claimant</item>
+        <item>Eguzkives ruthless performance</item>
+        <item>The spell of forward zigzag</item>
+        <item>Gaismyrmes reluctant home</item>
+        <item>Tobekhnas vivid dismissal</item>
+        <item>Javanes firm ditch</item>
+        <item>Cliarts added notice</item>
+        <item>The call of the continual blueback</item>
+        <item>Lehers invidious aphelion</item>
+        <item>Ipaharzas inoffensive treasury</item>
+        <item>Azniers shallow cub</item>
+        <item>Onbelops fragrant password</item>
+        <item>The spell of normal inquiry</item>
+        <item>Seberlunts floury yeast</item>
+        <item>Iskores stubby sauce</item>
+        <item>Eshkoins infamous shortcoming</item>
+        <item>Lartilfigs monitory regard</item>
+        <item>The spell of burdensome usurer</item>
+        <item>Fesmans triangular link</item>
+        <item>Beltons convalescent bounty</item>
+        <item>Yasantauts straight clutter</item>
+        <item>Mikels circular continuation</item>
+        <item>The pattern of covetous homogeneity</item>
+        <item>Scassis coercive flattery</item>
+        <item>Koyens pliant dope</item>
+        <item>Unatzs positive anxiety</item>
+        <item>Ethoulteis epidemic opacity</item>
+        <item>The charm of cautionary compromise</item>
+        <item>Miacometzs textural fire</item>
+        <item>Oxambs constant use</item>
+        <item>Deruss despotic forbearance</item>
+        <item>Jasnas retaliatory architecture</item>
+        <item>The charm of serviceable god</item>
+        <item>Eztarzs hideous corrosion</item>
+        <item>Arviags antagonistic fan</item>
+        <item>Cuicaals fallacious irony</item>
+        <item>Ivants charitable preface</item>
+        <item>The call of the poor reverse</item>
+        <item>Dilazs impassable twist</item>
+        <item>Nahakoss stray retort</item>
+        <item>Gastecilis prompt appearance</item>
+        <item>Deionas satanic advocate</item>
+        <item>The charm of trenchant world</item>
+        <item>Ferles incipient conveyance</item>
+        <item>Onbarras hollow turn</item>
+    </string-array>
 
-
-	<string-array name="questDescriptions" comment="first ten are intro quests">
-		<item>Saving the princess</item>
-		<item>Doing the royal laundry</item>
-		<item>Learning about true magic</item>
-		<item>Roasting enemies over a spit</item>
-		<item>Searching for better armor</item>
-		<item>Seeking out riches</item>
-		<item>Traveling at night</item>
-		<item>Country hopping</item>
-		<item>Fighting a war</item>
-		<item>Seeking out the jewel of fate</item>
-		<item>Marching on the capital</item>
-		<item>Defending the castle</item>
-		<item>Learning new moves</item>
-		<item>rescue the prince</item>
-		<item>rescue the princess</item>
-		<item>overthrow the evil king</item>
-		<item>overthrow the evil queen</item>
-		<item>slay the dragon</item>
-		<item>Slay the ogre</item>
-		<item>defeat the banshee</item>
-		<item>capture a leprechaun</item>
-		<item>join the elf war</item>
-		<item>win the elf war</item>
-		<item>defeat the demon</item>
-		<item>defeat the evil wizard</item>
-		<item>defeat the witch</item>
-		<item>rescue the kingdom</item>
-		<item>balance the kingdom budget</item>
-		<item>raise the debt ceiling</item>
-		<item>fight the rebels</item>
-		<item>join the rebels</item>
-		<item>lead the rebellion</item>
-		<item>defeat the frost giant</item>
-		<item>defeat the giant</item>
-		<item>raise a dragon</item>
-		<item>hatch a dragon egg</item>
-		<item>clear out a dragon nest</item>
-	</string-array>
-
-	<string-array name="subquestDescriptions">
-		<item>Meeting villagers</item>
-		<item>Giving high fives all around</item>
-		<item>Arrest the thief</item>
-		<item>arrest the murderer</item>
-		<item>Collect materials for fort</item>
-		<item>defeat the armored guards</item>
-		<item>play games with the children</item>
-		<item>high five the villager</item>
-		<item>flirt with the bartender</item>
-		<item>visit the fortuneteller</item>
-		<item>hunt for food</item>
-		<item>walk the plank</item>
-		<item>visit the pirates</item>
-		<item>trade with the pirates</item>
-		<item>visit a doctor</item>
-		<item>amuse the guards</item>
-		<item>distract the guards</item>
-		<item>drink with the guards</item>
-		<item>treat with diplomats</item>
-		<item>sign a treaty</item>
-		<item>chase the children</item>
-		<item>babysit the children</item>
-		<item>babysit the prince</item>
-		<item>babysit the princess</item>
-		<item>guard a caravan</item>
-		<item>hire a mercenary</item>
-		<item>kill a mercenary</item>
-		<item>visit the wise woman</item>
-		<item>find a magician</item>
-		<item>visit a wizard</item>
-		<item>kiss a noblewoman</item>
-		<item>kiss a nobleman</item>
-		<item>explore the mine</item>
-		<item>summon a demon</item>
-		<item>summon a spirit</item>
-		<item>fly a winged horse</item>
-		<item>ride a horse</item>
-		<item>buy a horse</item>
-		<item>feed a dragon</item>
-		<item>capture a dragon</item>
-		<item>make friends with princess</item>
-		<item>make friends with prince</item>
-		<item>build a castle</item>
-		<item>save an orphan</item>
-
-	</string-array>
-
-	<string-array name="enemyDescriptions">
-		<item>Slime</item>
-		<item>Wild Boar</item>
-		<item>Ninja Tiger</item>
-		<item>Tiger</item>
-		<item>Horse Demon</item>
-		<item>Aardvark</item>
-		<item>Aardwolf</item>
-		<item>Abalone</item>
-		<item>Abyssinian cat</item>
-		<item>Abyssinian ground</item>
-		<item>Acacia rat</item>
-		<item>Achilles tang</item>
-		<item>Acorn barnacle</item>
-		<item>Acorn weevil</item>
-		<item>Acorn woodpecker</item>
-		<item>Blue jay</item>
-		<item>Blue whale</item>
-		<item>Bluebird</item>
-		<item>Bluebottle</item>
-		<item>Bluefish</item>
-		<item>Boa</item>
-		<item>Boa constrictor</item>
-		<item>Boar</item>
-		<item>Bobcat</item>
-		<item>Buffalo</item>
-		<item>Bufflehead</item>
-		<item>Bug</item>
-		<item>Bull mastiff</item>
-		<item>Bullfrog</item>
-		<item>Bumblebee</item>
-		<item>Bunny</item>
-		<item>Bunting</item>
-		<item>Burro</item>
-		<item>Bush Baby</item>
-		<item>Bush squeaker</item>
-		<item>Bustard</item>
-		<item>Butterfly</item>
-		<item>Buzzard</item>
-		<item>Cusimanse</item>
-		<item>Cuttlefish</item>
-		<item>dog</item>
-		<item>dolphin</item>
-		<item>duck</item>
-		<item>eagle</item>
-		<item>eagle</item>
-		<item>eagles</item>
-		<item>egrets</item>
-		<item>eidolon</item>
-		<item>eland</item>
-		<item>elephant</item>
-		<item>elephant</item>
-		<item>filefish</item>
-		<item>falcon</item>
-		<item>flamingo</item>
-		<item>flamingo</item>
-		<item>flamingo</item>
-		<item>flying fox</item>
-		<item>fox</item>
-		<item>fox</item>
-		<item>frog</item>
-		<item>frog</item>
-		<item>frogmouth</item>
-		<item>frogs</item>
-		<item>frogs</item>
-		<item>frogs</item>
-		<item>gallinule</item>
-		<item>gars</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gazelle</item>
-		<item>gecko</item>
-		<item>gecko</item>
-		<item>gecko</item>
-		<item>gharial</item>
-		<item>gibbon</item>
-		<item>gibbons</item>
-		<item>Gila monster</item>
-		<item>giraffe</item>
-		<item>goat</item>
-		<item>goose</item>
-		<item>gorilla</item>
-		<item>groupers</item>
-		<item>grunt</item>
-		<item>grunt</item>
-		<item>guineafowl</item>
-		<item>gulls</item>
-		<item>Hackee</item>
-		<item>Haddock</item>
-		<item>Hadrosaurus</item>
-		<item>Hag-fish</item>
-		<item>Hairstreak</item>
-		<item>Hake</item>
-		<item>Halcyon</item>
-		<item>Halibut</item>
-		<item>Halicore</item>
-		<item>Hamadryad</item>
-		<item>Hyrax</item>
-		<item>ibis</item>
-		<item>ibis</item>
-		<item>ibises</item>
-		<item>iguana</item>
-		<item>impala</item>
-		<item>Jabiru</item>
-		<item>Jackal</item>
-		<item>Jackrabbit</item>
-		<item>Jaeger</item>
-		<item>Jaguar</item>
-		<item>Jaguarundi</item>
-		<item>Janenschia</item>
-		<item>Jay</item>
-		<item>Jellyfish</item>
-		<item>Jenny</item>
-		<item>Jerboa</item>
-		<item>Joey</item>
-		<item>John dory</item>
-		<item>Junco</item>
-		<item>June bug</item>
-		<item>kangaroo</item>
-		<item>kingfisher</item>
-		<item>koala</item>
-		<item>kob</item>
-		<item>Komodo dragon</item>
-		<item>kookaburra</item>
-		<item>kudu</item>
-		<item>leafy sea</item>
-		<item>lemur</item>
-		<item>lemur</item>
-		<item>leopard</item>
-		<item>lion</item>
-		<item>lionfish -0</item>
-		<item>lizard</item>
-		<item>lizards</item>
-		<item>llama</item>
-		<item>lookdown</item>
-		<item>lorikeet</item>
-		<item>lory</item>
-		<item>lubber</item>
-		<item>macaw</item>
-		<item>macaws</item>
-		<item>manatees</item>
-		<item>marmoset</item>
-		<item>meerkat</item>
-		<item>merganser</item>
-		<item>milksnake</item>
-		<item>monitor</item>
-		<item>monitor</item>
-		<item>monitor</item>
-		<item>moorhen</item>
-		<item>morays</item>
-		<item>muntjac</item>
-		<item>muntjac</item>
-		<item>mynah</item>
-		<item>Nabarlek</item>
-		<item>Nag</item>
-		<item>Naga</item>
-		<item>Nagapies</item>
-		<item>Naked mole</item>
-		<item>Nandine</item>
-		<item>Nandoo</item>
-		<item>Nandu</item>
-		<item>Narwhal</item>
-		<item>Narwhale</item>
-		<item>Natterjack Toad</item>
-		<item>Nauplius</item>
-		<item>Nautilus</item>
-		<item>Needle fish</item>
-		<item>Needletail</item>
-		<item>Nematode</item>
-		<item>Nene</item>
-		<item>Neon blue</item>
-		<item>Neon blue</item>
-		<item>Neon dwarf</item>
-		<item>Neon rainbow</item>
-		<item>Neon red</item>
-		<item>Neon Tetra</item>
-		<item>Nerka</item>
-		<item>Nettlefish</item>
-		<item>Newfoundland dog</item>
-		<item>Newt</item>
-		<item>Newt Nutria</item>
-		<item>Night crawler</item>
-		<item>Night heron</item>
-		<item>Nighthawk</item>
-		<item>Nightingale</item>
-		<item>Nightjar</item>
-		<item>Nijsseniss dwarf</item>
-		<item>Nilgai</item>
-		<item>Nine banded</item>
-		<item>Noctilio</item>
-		<item>Noctule</item>
-		<item>Noddy</item>
-		<item>Noolbenger</item>
-		<item>Northern cardinals</item>
-		<item>Northern elephant</item>
-		<item>Northern flying</item>
-		<item>Northern fur</item>
-		<item>Northern hairy-nosed</item>
-		<item>Northern pike</item>
-		<item>Northern sea</item>
-		<item>Northern spotted</item>
-		<item>Norway lobster</item>
-		<item>Norway rat</item>
-		<item>Nubian goat</item>
-		<item>Nudibranch</item>
-		<item>Numbat</item>
-		<item>Nurse shark</item>
-		<item>Nutcracker</item>
-		<item>Nuthatch</item>
-		<item>Nutria</item>
-		<item>Nyala</item>
-		<item>Nymph</item>
-		<item>opossum</item>
-		<item>orangutan</item>
-		<item>oryx</item>
-		<item>ostrich</item>
-		<item>otter</item>
-		<item>otter</item>
-		<item>otter</item>
-		<item>otter</item>
-		<item>owl</item>
-		<item>owl</item>
-		<item>panther</item>
-		<item>parakeet</item>
-		<item>parrot</item>
-		<item>parrot</item>
-		<item>parrot</item>
-		<item>parrotfish</item>
-		<item>parrotfish</item>
-		<item>parrots</item>
-		<item>peafowl</item>
-		<item>peccaries</item>
-		<item>pelican</item>
-		<item>penguin</item>
-		<item>penguin</item>
-		<item>penguin</item>
-		<item>penguins</item>
-		<item>pheasant</item>
-		<item>pig</item>
-		<item>pintail</item>
-		<item>piranhas</item>
-		<item>porkfish</item>
-		<item>primates</item>
-		<item>pufferfish -0</item>
-		<item>puffin</item>
-		<item>puffins</item>
-		<item>python</item>
-		<item>python</item>
-		<item>python</item>
-		<item>python</item>
-		<item>Quagga -0</item>
-		<item>Quahog -0</item>
-		<item>Quail -0</item>
-		<item>Queen snake</item>
-		<item>Queen ant</item>
-		<item>Queen bee</item>
-		<item>Quetzal -0</item>
-		<item>Quokka</item>
-		<item>Quoll</item>
-		<item>rabbit</item>
-		<item>raccoons</item>
-		<item>rail</item>
-		<item>rattlesnake</item>
-		<item>rattlesnake</item>
-		<item>rattlesnake</item>
-		<item>ray</item>
-		<item>rays</item>
-		<item>rays</item>
-		<item>rhinoceros</item>
-		<item>rhinoceros</item>
-		<item>salamander</item>
-		<item>sawfishes</item>
-		<item>scorpion</item>
-		<item>sea lion</item>
-		<item>seahorses</item>
-		<item>seal</item>
-		<item>seal</item>
-		<item>seal</item>
-		<item>seal</item>
-		<item>seal</item>
-		<item>seal</item>
-		<item>seals</item>
-		<item>sergeant major</item>
-		<item>serval</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>shark</item>
-		<item>sharks</item>
-		<item>sheep</item>
-		<item>sheep</item>
-		<item>shelduck</item>
-		<item>shelduck</item>
-		<item>shoveler</item>
-		<item>shoveler</item>
-		<item>shoveler</item>
-		<item>skink</item>
-		<item>sloth</item>
-		<item>sloth</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snake</item>
-		<item>snakes</item>
-		<item>snakes</item>
-		<item>spadefish</item>
-		<item>spiders</item>
-		<item>starling</item>
-		<item>starling</item>
-		<item>stilt</item>
-		<item>stork</item>
-		<item>stork</item>
-		<item>sugar glider</item>
-		<item>sunbittern</item>
-		<item>swan</item>
-		<item>swan</item>
-		<item>swan</item>
-		<item>tanager</item>
-		<item>tanager</item>
-		<item>tang</item>
-		<item>tapirs</item>
-		<item>tarsier</item>
-		<item>teal dragon</item>
-		<item>teal tiger</item>
-		<item>teal ninja</item>
-		<item>teal drake</item>
-		<item>teal fighter</item>
-		<item>teal martial artist</item>
-		<item>teal</item>
-		<item>tenrec</item>
-		<item>tiger</item>
-		<item>toad</item>
-		<item>toad</item>
-		<item>tomistoma</item>
-		<item>green tortoise</item>
-		<item>blue tortoise</item>
-		<item>silver tortoise</item>
-		<item>toucan</item>
-		<item>toucan</item>
-		<item>trumpeter</item>
-		<item>turaco</item>
-		<item>turaco</item>
-		<item>turaco</item>
-		<item>turaco</item>
-		<item>turaco</item>
-		<item>turtles</item>
-		<item>Uakari</item>
-		<item>Uganda kob</item>
-		<item>Uinta ground</item>
-		<item>Umbrella bird</item>
-		<item>Umbrette</item>
-		<item>Unau</item>
-		<item>Ungulate</item>
-		<item>Unicorn</item>
-		<item>Upupa</item>
-		<item>Urchin</item>
-		<item>Urial</item>
-		<item>Uromastyx maliensis</item>
-		<item>Uromastyx spinipes</item>
-		<item>Urson</item>
-		<item>Urubu</item>
-		<item>Urus</item>
-		<item>Urutu</item>
-		<item>Urva</item>
-		<item>Utah prairie</item>
-		<item>vaquita</item>
-		<item>vulture</item>
-		<item>vulture</item>
-		<item>vulture</item>
-		<item>vultures</item>
-		<item>vultures</item>
-		<item>Vampire bat</item>
-		<item>Vaquita</item>
-		<item>Veery</item>
-		<item>Velociraptor</item>
-		<item>Velvet crab</item>
-		<item>Velvet worm</item>
-		<item>Venomous snake</item>
-		<item>Verdin</item>
-		<item>Vervet</item>
-		<item>Vicuna</item>
-		<item>Viper</item>
-		<item>Viper squid</item>
-		<item>Viperfish</item>
-		<item>Vireo</item>
-		<item>Virginia opossum</item>
-		<item>Vixen</item>
-		<item>Vole</item>
-		<item>Volvox</item>
-		<item>Vulpes Velox</item>
-		<item>Vulpes Vulpes</item>
-		<item>X-Ray fish</item>
-		<item>X-Ray tetra</item>
-		<item>Xanclomys</item>
-		<item>Xanthareel</item>
-		<item>Xantus</item>
-		<item>Xantus murrelet</item>
-		<item>Xeme</item>
-		<item>Xenarthra</item>
-		<item>Xenoposeidon</item>
-		<item>Xenops</item>
-		<item>Xenopterygii</item>
-		<item>Xenopus</item>
-		<item>Xenotarsosaurus</item>
-		<item>Xenurine</item>
-		<item>Xenurus unicinctus</item>
-		<item>Xerus</item>
-		<item>Xiaosaurus</item>
-		<item>Xinjiangovenator</item>
-		<item>Xiphias</item>
-		<item>Xiphias gladius</item>
-		<item>Xiphosuran</item>
-		<item>Xoloitzcuintli</item>
-		<item>Xoni</item>
-		<item>Xuanhanosaurus</item>
-		<item>Xuanhuaceratops</item>
-		<item>Xuanhuasaurus</item>
-		<item>Yaffle</item>
-		<item>Yak</item>
-		<item>Yapok</item>
-		<item>Yard ant</item>
-		<item>Yearling</item>
-		<item>Yellow bellied</item>
-		<item>Yellow belly</item>
-		<item>Yellowhammer</item>
-		<item>Yellowjacket</item>
-		<item>Yellowlegs</item>
-		<item>Yellowthroat</item>
-		<item>Yeti</item>
-		<item>Ynambu</item>
-		<item>Yorkshire terrier</item>
-		<item>Yosemite toad</item>
-		<item>Yucker</item>
-		<item>walrus</item>
-		<item>warthog</item>
-		<item>waterbuck</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whale</item>
-		<item>whales</item>
-		<item>whales</item>
-		<item>wigeon</item>
-		<item>wigeon</item>
-		<item>wildebeest</item>
-		<item>wolf</item>
-		<item>wolf</item>
-		<item>Zander</item>
-		<item>Zanzibar day</item>
-		<item>Zebra</item>
-		<item>Zebra dove</item>
-		<item>Zebra finch</item>
-		<item>Zebra-tailed lizard</item>
-		<item>Zebrafish</item>
-		<item>Zebu</item>
-		<item>Zenaida</item>
-		<item>Zeren</item>
-		<item>Zethus spinipes</item>
-		<item>Zethus wasp</item>
-		<item>ZigZag salamander</item>
-		<item>Zone-tailed pigeon</item>
-		<item>Zooplankton</item>
-		<item>Zopilote</item>
-		<item>Zorilla</item>
-	</string-array>
-
-	<string-array name="healing">
-		<item>healing potion</item>
-		<item>healing ray</item>
-		<item>jar of healing</item>
-		<item>healing salve</item>
-		<item>medicated herb</item>
-		<item>medicated salve</item>
-	</string-array>
-
-	<string-array name="magichealing">
-		<item>magic potion</item>
-		<item>magic up ray</item>
-		<item>jar of magic juice</item>
-		<item>magic salve</item>
-		<item>magic herb</item>
-		<item>magic lamp</item>
-	</string-array>
-
-	<string-array name="metals">
-		<item>tin</item>
-		<item>green</item>
-		<item>iron</item>
-		<item>heavy</item>
-		<item>jagged</item>
-		<item>silver</item>
-		<item>tepin</item>
-		<item>nocturn</item>
-		<item>ancient</item>
-		<item>gold</item>
-		<item>latinum</item>
-		<item>folded</item>
-		<item>glowing</item>
-		<item>mithril</item>
-		<item>Hydrogen</item>
-		<item>Lithium</item>
-		<item>Sodium</item>
-		<item>Potassium</item>
-		<item>Rubidium</item>
-		<item>Cesium</item>
-		<item>Francium</item>
-		<item>Beryllium</item>
-		<item>Magnesium</item>
-		<item>Calcium</item>
-		<item>Strontium</item>
-		<item>Barium</item>
-		<item>Radium</item>
-		<item>Aluminum</item>
-		<item>Gallium</item>
-		<item>Indium</item>
-		<item>Tin</item>
-		<item>Thallium</item>
-		<item>Lead</item>
-		<item>Bismuth</item>
-		<item>Ununtrium</item>
-		<item>Ununquadium</item>
-		<item>Ununpentium</item>
-		<item>Ununhexium</item>
-		<item>Scandium</item>
-		<item>Titanium</item>
-		<item>Vanadium</item>
-		<item>Chromium</item>
-		<item>Manganese</item>
-		<item>Iron</item>
-		<item>Cobalt</item>
-		<item>Nickel</item>
-		<item>Copper</item>
-		<item>Zinc</item>
-		<item>Yttrium</item>
-		<item>Zirconium</item>
-		<item>Niobium</item>
-		<item>Molybdenum</item>
-		<item>Technetium</item>
-		<item>Ruthenium</item>
-		<item>Rhodium</item>
-		<item>Palladium</item>
-		<item>Silver</item>
-		<item>Cadmium</item>
-		<item>Lanthanum</item>
-		<item>Hafnium</item>
-		<item>Tantalum</item>
-		<item>Tungsten</item>
-		<item>Rhenium</item>
-		<item>Osmium</item>
-		<item>Iridium</item>
-		<item>Platinum</item>
-		<item>Gold</item>
-		<item>Mercury</item>
-		<item>Actinium</item>
-		<item>Rutherfordium</item>
-		<item>Dubnium</item>
-		<item>Seaborgium</item>
-		<item>Bohrium</item>
-		<item>Hassium</item>
-		<item>Meitnerium</item>
-		<item>Darmstadtium</item>
-		<item>Roentgenium</item>
-		<item>Ununbium</item>
-		<item>Cerium</item>
-		<item>Praseodymium</item>
-		<item>Neodymium</item>
-		<item>Promethium</item>
-		<item>Samarium</item>
-		<item>Europium</item>
-		<item>Gadolinium</item>
-		<item>Terbium</item>
-		<item>Dysprosium</item>
-		<item>Holmium</item>
-		<item>Erbium</item>
-		<item>Thulium</item>
-		<item>Ytterbium</item>
-		<item>Lutetium</item>
-		<item>Thorium</item>
-		<item>Protactinium</item>
-		<item>Uranium</item>
-		<item>Neptunium</item>
-		<item>Plutonium</item>
-		<item>Americium</item>
-		<item>Curium</item>
-		<item>Berkelium</item>
-		<item>Californium</item>
-		<item>Einsteinium</item>
-		<item>Fermium</item>
-		<item>Mendelevium</item>
-		<item>Nobelium</item>
-		<item>Lawrencium</item>
-	</string-array>
-
-	<string-array name="maritalstatus">
-		<item>Single</item>
-		<item>Dating</item>
-		<item>Playing</item>
-		<item>Divorced</item>
-		<item>Remarried</item>
-		<item>Married</item>
-	</string-array>
-
-
-	<string-array name="spells">
-		<item>Meteor</item>
-		<item>Fireball</item>
-		<item>Ice Wind</item>
-		<item>Lightning Storm</item>
-		<item>Ninja Smoke</item>
-		<item>Ninja Stars</item>
-		<item>Ninja Darts</item>
-		<item>Fire Storm</item>
-		<item>Prism</item>
-		<item>Ice Blast</item>
-		<item>Barrier Wave</item>
-		<item>Quake</item>
-		<item>Tsunami</item>
-		<item>Wave</item>
-		<item>Beam</item>
-		<item>Particle</item>
-		<item>Blast</item>
-		<item>Sparks</item>
-		<item>Shimmer</item>
-		<item>Shine</item>
-		<item>Light Blast</item>
-		<item>Heavy Rain</item>
-		<item>Ultima</item>
-		<item>Dompos four incredulity	</item>
-		<item>Izminaxs vicarious inertia	</item>
-		<item>Lazedeiass migratory Siberia	</item>
-		<item>Tsapalts ponderous clearance	</item>
-		<item>The spell of soft horn	</item>
-		<item>Kellerdons outrageous debate	</item>
-		<item>Eloerladas mercenary blame	</item>
-		<item>Tobeds vernal restorative	</item>
-		<item>Yodeizaras venal tiger	</item>
-		<item>The charm of attentive room	</item>
-		<item>Lazubekols anomalous tobacco	</item>
-		<item>Virlemus near lamentation	</item>
-		<item>Croldolors obsequious reversion	</item>
-		<item>Zoitzedess contingent interference	</item>
-		<item>The agency of normal bribe	</item>
-		<item>Scanes abnormal nature	</item>
-		<item>Ekinxiskas capillary magician	</item>
-		<item>Gezzancens mendacious image	</item>
-		<item>Rubellas owing ambiguity	</item>
-		<item>The spell of gigantic decease	</item>
-		<item>Metols corporeal incredulity	</item>
-		<item>Goileshmis subservient silhouette	</item>
-		<item>Ekives family genealogy	</item>
-		<item>Florravens articulate law	</item>
-		<item>The call of the close gap	</item>
-		<item>Thingarks maternal fashion	</item>
-		<item>Pharres-Ts epic boom	</item>
-		<item>Kilaurtads bent carnation	</item>
-		<item>Bizarks responsive catalysis	</item>
-		<item>The pattern of vehement creek	</item>
-		<item>Ingoldres incessant tenacity	</item>
-		<item>Osadars orthodox tone	</item>
-		<item>Porriarmos sibilant directory	</item>
-		<item>Sandurgols some null	</item>
-		<item>The agency of bizarre rector	</item>
-		<item>Cazkinarts livid menace	</item>
-		<item>Javnas arbitrary beadle	</item>
-		<item>Sandalos particular repetition	</item>
-		<item>Etorrits poor stupefaction	</item>
-		<item>The spell of exempt reign	</item>
-		<item>Izottols illegal memory	</item>
-		<item>Aments circular inexperience	</item>
-		<item>Embardis volatile clearance	</item>
-		<item>Ilifers prompt shade	</item>
-		<item>The pattern of practicable quota	</item>
-		<item>Rodaluskis actual muzzle	</item>
-		<item>Assellunts coarse protest	</item>
-		<item>Barras present inadequacy	</item>
-		<item>Beiassels inadequate exception	</item>
-		<item>The agency of gratis cheer	</item>
-		<item>Sapurks rampant hydra	</item>
-		<item>Isusos wistful demon	</item>
-		<item>Ospentikos shoal sin	</item>
-		<item>Zabarress floating apathy	</item>
-		<item>The pattern of sharp volunteer	</item>
-		<item>Mendiorais positive reception	</item>
-		<item>Dilkajunus subservient tribe	</item>
-		<item>Vulets connubial third	</item>
-		<item>Olenaks indifferent magnitude	</item>
-		<item>The spell of terminal oneself	</item>
-		<item>Padlisteis corporate find	</item>
-		<item>Jauneraurs fatty injustice	</item>
-		<item>Uzundos elephantine empathy	</item>
-		<item>Firaunerss concrete barb	</item>
-		<item>The pattern of ajar desire	</item>
-		<item>Krezzars wary midshipman	</item>
-		<item>Hibandis endemic lubricity	</item>
-		<item>Adesulks leaky increase	</item>
-		<item>Bobartarts explicit field	</item>
-		<item>The agency of ominous nostril	</item>
-		<item>Nahols hearty principle	</item>
-		<item>Iakivens alternate debate	</item>
-		<item>GVass scholastic load	</item>
-		<item>Zilkos turgid score	</item>
-		<item>The pattern of distinct restoration	</item>
-		<item>Burins scandalous conveyance	</item>
-		<item>Twantss incessant archipelago	</item>
-		<item>Oierengots retroactive acquittal	</item>
-		<item>Santzs prerequisite flame	</item>
-		<item>The pattern of discretionary salute	</item>
-		<item>Kevors simple herself	</item>
-		<item>Gazdartids chocolate size	</item>
-		<item>Amulchends cloven resolve	</item>
-		<item>Lapoulis courageous impropriety	</item>
-		<item>The charm of hospitable relic	</item>
-		<item>Lerghuss hairy bigot	</item>
-		<item>Laumpodos tiresome oath	</item>
-		<item>Bobels exuberant completion	</item>
-		<item>Pielios slick murmur	</item>
-		<item>The charm of devoid voracity	</item>
-		<item>Urthes different partner	</item>
-		<item>Fronids ephemeral leisure	</item>
-		<item>Scanetins remote escort	</item>
-		<item>Vastarts barbarous zip	</item>
-		<item>The agency of extravagant bubble	</item>
-		<item>Petarsks alternate start	</item>
-		<item>Zohirkatvs loose terrace	</item>
-		<item>Eddivees recurring conduit	</item>
-		<item>Iztorkous acid revise	</item>
-		<item>The spell of bipartite cloud	</item>
-		<item>Airives high glory	</item>
-		<item>Irrens flagrant cameraman	</item>
-		<item>Garaiortzs straight flight	</item>
-		<item>Munda-Yims deep autumn	</item>
-		<item>The call of the insolvent sunshade	</item>
-		<item>Perlendis wooden sweat	</item>
-		<item>Illojuntzs preposterous lullaby	</item>
-		<item>Falders complementary trefoil	</item>
-		<item>Walarks private instance	</item>
-		<item>The agency of gainful squall	</item>
-		<item>Baurustes indefensible opal	</item>
-		<item>Amurikeres chivalrous need	</item>
-		<item>Meltzs eminent calorimeter	</item>
-		<item>Lalunkwiss extramural simplicity	</item>
-		<item>The pattern of trim debtor	</item>
-		<item>Egurensais addled soul	</item>
-		<item>Totzags praiseworthy egotism	</item>
-		<item>Gartzankos happy size	</item>
-		<item>Illarths peaceful latitude	</item>
-		<item>The agency of conic climax	</item>
-		<item>Urkals declamatory emissary	</item>
-		<item>Ihaventuns orthodox compromise	</item>
-		<item>Sharandas bay zenith	</item>
-		<item>Itundars noisy lacquer	</item>
-		<item>The call of the final compromise	</item>
-		<item>Tibaws mild sunrise	</item>
-		<item>Kandals tolerant noise	</item>
-		<item>Maunts luxuriant dove	</item>
-		<item>Xaratzs sappy chain	</item>
-		<item>The charm of blatant cable	</item>
-		<item>Ferbinas parabolic hinge	</item>
-		<item>Peldars cheap execution	</item>
-		<item>Landushmis erratic concern	</item>
-		<item>Anarritads shrunk polyglot	</item>
-		<item>The call of the little rate	</item>
-		<item>Mahois collateral forfeiture	</item>
-		<item>Lartsoizs profane inventor	</item>
-		<item>Clazens carbonaceous excitation	</item>
-		<item>Pularitors white obstinacy	</item>
-		<item>The spell of hungry adhesion	</item>
-		<item>Agellestas perpendicular inversion	</item>
-		<item>Wiulkaitzs preponderant conclusive	</item>
-		<item>Hibaws single dash	</item>
-		<item>Kilins limpid ingestion	</item>
-		<item>The call of the certain appearance	</item>
-		<item>Glastes absolute marsh	</item>
-		<item>Mercasifas over governor	</item>
-		<item>Motzesthis quiet excursion	</item>
-		<item>Urthers clamorous lug	</item>
-		<item>The agency of indefinite lotion	</item>
-		<item>Egurgoizas drowsy novelty	</item>
-		<item>Egunce-Los foxy kink	</item>
-		<item>Dholos irreclaimable homogeneity	</item>
-		<item>Lancks abrasive neglect	</item>
-		<item>The call of the collateral analysis	</item>
-		<item>Nuxkis marine hindrance	</item>
-		<item>Hodonixs dependent return	</item>
-		<item>Anennelles cadaverous enormity	</item>
-		<item>Igoramls intermittent lamb	</item>
-		<item>The charm of immeasurable definition	</item>
-		<item>Symarizs raw contrast	</item>
-		<item>Thakins backward allowance	</item>
-		<item>Pulkolos dynamic gore	</item>
-		<item>Peroms imponderable patron	</item>
-		<item>The pattern of eighth metaphor	</item>
-		<item>Jastarkors clamorous wheel	</item>
-		<item>Aztarks illegible allowance	</item>
-		<item>Alarrikos future blight	</item>
-		<item>Tipinas sincere myself	</item>
-		<item>The charm of incorporate scratch	</item>
-		<item>Adartses impelled claimant	</item>
-		<item>Blumaivves quizzical multitude	</item>
-		<item>Khules decimal slime	</item>
-		<item>Ubautzions sear alliance	</item>
-		<item>The spell of imponderable hook	</item>
-		<item>Rogois wholesale pullover	</item>
-		<item>Turgaides illegitimate cattle	</item>
-		<item>Claithars phosphoric burro	</item>
-		<item>Bazens troublesome sauce	</item>
-		<item>The spell of ineradicable outlawry	</item>
-		<item>Tchandos invariable renewal	</item>
-		<item>Corattolds hospitable disc	</item>
-		<item>Chaggids legendary paean	</item>
-		<item>Julaels sappy scythe	</item>
-		<item>The pattern of prostrate round	</item>
-		<item>Sarkas bluff novice	</item>
-		<item>Turumps numismatic voyage	</item>
-		<item>Atzeles mercenary carnage	</item>
-		<item>Sanderes pliant group	</item>
-		<item>The charm of fiendish stint	</item>
-		<item>Jasajaetzs swampy enemy	</item>
-		<item>Clados succinct measure	</item>
-		<item>Bordouscs suspicious usurer	</item>
-		<item>Ihakus sound chance	</item>
-		<item>The call of the cosmopolitan wag	</item>
-		<item>Atazkatuns delicate aura	</item>
-		<item>Foldoinos rural Hessian	</item>
-		<item>Dibaisters humble surprise	</item>
-		<item>Darvilixs intransitive rivalry	</item>
-		<item>The charm of acrid cartilage	</item>
-		<item>Mupurs qualified contrast	</item>
-		<item>Baltzs ubiquitous courier	</item>
-		<item>Voyens sagacious skeptic	</item>
-		<item>Borbes local growth	</item>
-		<item>The agency of permissive normalcy	</item>
-		<item>Hurroskis false pantomime	</item>
-		<item>Ferdars dexter cordon	</item>
-		<item>Duangerres loose muslin	</item>
-		<item>Atsuns victorious referee	</item>
-		<item>The spell of greasy border	</item>
-		<item>Fialts paternal bite	</item>
-		<item>Joskajaets pliant essay	</item>
-		<item>Lizaiankes cosy original	</item>
-		<item>Tsaspros omniscient butterfly	</item>
-		<item>The agency of loquacious controversy	</item>
-		<item>Emedoriors catalytic attendant	</item>
-		<item>Semaizilis irrelevant desuetude	</item>
-		<item>Josais murky expedition	</item>
-		<item>Smourgiors episcopal relief	</item>
-		<item>The call of the mineral variety	</item>
-		<item>Cilfingens tuneful inquisition	</item>
-		<item>Ibonfos ominous malaria	</item>
-		<item>Asterwales resonant ornament	</item>
-		<item>Sunitzis impalpable wholesale	</item>
-		<item>The call of the dead intrusion	</item>
-		<item>Teobers dewy nutmeg	</item>
-		<item>Varras transalpine puppet	</item>
-		<item>Iskales novel contradistinction	</item>
-		<item>Alesoithus discordant paragraph	</item>
-		<item>The call of the impervious retention	</item>
-		<item>Marteios antipodean opponent	</item>
-		<item>Pomartaxts precedent world	</item>
-		<item>Deobers felicitous claimant	</item>
-		<item>Eguzkives ruthless performance	</item>
-		<item>The spell of forward zigzag	</item>
-		<item>Gaismyrmes reluctant home	</item>
-		<item>Tobekhnas vivid dismissal	</item>
-		<item>Javanes firm ditch	</item>
-		<item>Cliarts added notice	</item>
-		<item>The call of the continual blueback	</item>
-		<item>Lehers invidious aphelion	</item>
-		<item>Ipaharzas inoffensive treasury	</item>
-		<item>Azniers shallow cub	</item>
-		<item>Onbelops fragrant password	</item>
-		<item>The spell of normal inquiry	</item>
-		<item>Seberlunts floury yeast	</item>
-		<item>Iskores stubby sauce	</item>
-		<item>Eshkoins infamous shortcoming	</item>
-		<item>Lartilfigs monitory regard	</item>
-		<item>The spell of burdensome usurer	</item>
-		<item>Fesmans triangular link	</item>
-		<item>Beltons convalescent bounty	</item>
-		<item>Yasantauts straight clutter	</item>
-		<item>Mikels circular continuation	</item>
-		<item>The pattern of covetous homogeneity	</item>
-		<item>Scassis coercive flattery	</item>
-		<item>Koyens pliant dope	</item>
-		<item>Unatzs positive anxiety	</item>
-		<item>Ethoulteis epidemic opacity	</item>
-		<item>The charm of cautionary compromise	</item>
-		<item>Miacometzs textural fire	</item>
-		<item>Oxambs constant use	</item>
-		<item>Deruss despotic forbearance	</item>
-		<item>Jasnas retaliatory architecture	</item>
-		<item>The charm of serviceable god	</item>
-		<item>Eztarzs hideous corrosion	</item>
-		<item>Arviags antagonistic fan	</item>
-		<item>Cuicaals fallacious irony	</item>
-		<item>Ivants charitable preface	</item>
-		<item>The call of the poor reverse	</item>
-		<item>Dilazs impassable twist	</item>
-		<item>Nahakoss stray retort	</item>
-		<item>Gastecilis prompt appearance	</item>
-		<item>Deionas satanic advocate	</item>
-		<item>The charm of trenchant world	</item>
-		<item>Ferles incipient conveyance	</item>
-		<item>Onbarras hollow turn 	</item>
-	</string-array>
 </resources>

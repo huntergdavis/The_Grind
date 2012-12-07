@@ -1,13 +1,11 @@
 package com.hunterdavis.thegrind;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Random;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -22,6 +20,7 @@ import android.graphics.PointF;
 import android.net.Uri;
 import android.os.Handler;
 import android.util.AttributeSet;
+import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -79,14 +78,12 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	int autoGrindExpDistance = 30;
 	int autoGrindRotation = 5;
 	Point player1Buffer = new Point(5, 5);
-	int numberSubquestsInQuest = 5;
-	int numberFightsInSubQuest = 3;
-	int numberLocationsInSubQuest = 3;
+	int numberSubquestsInQuest = 8;
+	int numberFightsInSubQuest = 5;
+	int numberLocationsInSubQuest = 5;
 	int textColor = Color.WHITE;
 	int introTextColor = Color.BLACK;
 	int plotForwardBuffer = 500;
-	private static final float EPS = (float) 0.000001;
-
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		synchronized (getHolder()) {
@@ -174,7 +171,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	}
 
 	float fdistance(float x1, float y1, float x2, float y2) {
-		return (float) Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+		return (float) FloatMath.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 	}
 
 	public void setAutoGrind(boolean autoGrindNew) {

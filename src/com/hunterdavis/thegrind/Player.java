@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import android.content.Context;
-import android.content.res.Resources;
-import android.location.Address;
 import android.net.Uri;
 
 public class Player {
@@ -38,7 +35,7 @@ public class Player {
 	
 	// constant
 	int numSpellDescriptions = 300;
-	int maxNumItems = 50;
+	int maxNumItems = 100;
 
 	// this class needs some randomness
 	Random myPlayerRandom = new Random();
@@ -63,8 +60,8 @@ public class Player {
 		toughness = 1;
 		intelligence = 1;
 		wisdom = 1;
-		equipment = new ArrayList();
-		spells = new ArrayList();
+		equipment = new ArrayList<Integer>();
+		spells = new ArrayList<Integer>();
 		questNum = myPlayerRandom.nextInt(10);
 		subQuestNum = myPlayerRandom.nextInt(6);
 		statusNum = 0;
@@ -195,10 +192,10 @@ public class Player {
 			return 8;
 		}  else if (experience < 450) {
 			return 9;
-		}  else if (experience < 540) {
+		}  else if (experience < 1000) {
 			return 10;
 		}  else {
-			return (experience / 50);
+			return (10 + (experience / 1000));
 		}
 	}
 

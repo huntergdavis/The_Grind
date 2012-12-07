@@ -1,26 +1,18 @@
 package com.hunterdavis.thegrind;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.Paint.Style;
 import android.os.Handler;
-import android.os.Looper;
 import android.view.SurfaceHolder;
-import android.widget.Toast;
 
 public class CanvasThread extends Thread {
 	private SurfaceHolder _surfaceHolder;
 	private Panel _panel;
 	private boolean _run = false;
-	private Handler mHandler;
-	private Context mContext;
-
 	// for consistent rendering
 	private long sleepTime;
 	// amount of time to sleep for (in milliseconds)
@@ -29,9 +21,7 @@ public class CanvasThread extends Thread {
 	public CanvasThread(SurfaceHolder surfaceHolder, Panel panel,
 			Context context, Handler handler) {
 		_surfaceHolder = surfaceHolder;
-		_panel = panel;
-		this.mHandler = handler;
-		this.mContext = context; 
+		_panel = panel; 
 
 	}
 
