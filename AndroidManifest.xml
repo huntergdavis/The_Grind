@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hunterdavis.thegrind"
-    android:versionCode="1"
+    android:versionCode="10"
     android:versionName="Expansion_Pack_3_point_1" >
 
     <uses-sdk android:minSdkVersion="7" />
