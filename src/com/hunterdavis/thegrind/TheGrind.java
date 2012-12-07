@@ -16,6 +16,7 @@ import android.view.SubMenu;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.crittercism.app.Crittercism;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
@@ -35,6 +36,9 @@ public class TheGrind extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		// crittercism
+		Crittercism.init(getApplicationContext(), "50c21a157e69a3763c000002");
+		
 		setContentView(R.layout.main);
 		mypanel = (Panel) findViewById(R.id.SurfaceView01); 
 		m_adapterForHighScores = new ArrayAdapter<String>(this,

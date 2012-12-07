@@ -492,7 +492,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 		}
 	}
 
-	@Override
+	
 	public void surfaceChanged(SurfaceHolder holder, int format, int width,
 			int height) {
 		// reset();
@@ -501,7 +501,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	}
 
-	@Override
+	
 	public void surfaceCreated(SurfaceHolder holder) {
 		//
 		if (surfaceCreated == false) {
@@ -512,7 +512,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 		}
 	}
 
-	@Override
+	
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		surfaceCreated = false;
 
