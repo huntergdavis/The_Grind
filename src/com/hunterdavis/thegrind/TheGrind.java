@@ -38,7 +38,7 @@ public class TheGrind extends Activity {
 
 		// crittercism
 		Crittercism.init(getApplicationContext(), "50c21a157e69a3763c000002");
-		
+
 		setContentView(R.layout.main);
 		mypanel = (Panel) findViewById(R.id.SurfaceView01); 
 		m_adapterForHighScores = new ArrayAdapter<String>(this,

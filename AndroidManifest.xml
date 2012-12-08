@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hunterdavis.thegrind"
-    android:versionCode="11"
-    android:versionName="Expansion_Pack_3_point_1_1" >
+    android:versionCode="12"
+    android:versionName="Expansion_Pack_3_point_1_2" >
 
-    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="11"/>
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

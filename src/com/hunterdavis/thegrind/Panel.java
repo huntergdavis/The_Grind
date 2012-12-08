@@ -531,15 +531,15 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 		SQLiteDatabase db = scoreData.getWritableDatabase();
 
-		Cursor cursor = db.query(InventorySQLHelper.TABLE, null, "name = '"
+		Cursor saveCursor = db.query(InventorySQLHelper.TABLE, null, "name = '"
 				+ player1.name + "'", null, null, null, null);
-		if (cursor.getCount() > 0) {
+		if (saveCursor.getCount() > 0) {
 			update = true;
 		} else {
 			update = false;
 		}
 
-		cursor.close();
+		saveCursor.close();
 
 		ContentValues values = new ContentValues();
 		values.put(InventorySQLHelper.NAME, player1.name);

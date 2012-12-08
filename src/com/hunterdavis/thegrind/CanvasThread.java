@@ -21,7 +21,7 @@ public class CanvasThread extends Thread {
 	public CanvasThread(SurfaceHolder surfaceHolder, Panel panel,
 			Context context, Handler handler) {
 		_surfaceHolder = surfaceHolder;
-		_panel = panel; 
+		_panel = panel;
 
 	}
 
@@ -51,19 +51,19 @@ public class CanvasThread extends Thread {
 				synchronized (_surfaceHolder) {
 					Paint paint = new Paint();
 					paint.setColor(Color.WHITE);
-					// clear the screen with the gray painter.
-					c.drawRect(0, 0, c.getWidth(),
-							c.getHeight(), paint);
-					
-					if(_panel.introScreenOver == false) {
-						// do something?
+
+					if (c != null) {
+						// clear the screen with the gray painter.
+						c.drawRect(0, 0, c.getWidth(), c.getHeight(), paint);
 					}
-					else {
+					if (_panel.introScreenOver == false) {
+						// do something?
+					} else {
 						// paint the bottom grey
 						paint.setColor(Color.GRAY);
-						c.drawRect(0, c.getHeight()/2, c.getWidth(),
+						c.drawRect(0, c.getHeight() / 2, c.getWidth(),
 								c.getHeight(), paint);
-							
+
 						// paint the blue ff bk on top
 						paint.setColor(Color.BLUE);
 						RectF myrect = new RectF();
