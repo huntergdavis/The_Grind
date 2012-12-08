@@ -61,6 +61,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	int currentPlayerSpell = 0;
 	int currentEnemySpell = 0;
 	int currentPlayerPotion = 0;
+	int currentPlayerHealing = 0;
 	int currentEnemyPotion = 0;
 	Player player1 = new Player();
 	float currentRotation = 0.0f;
@@ -280,7 +281,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 				// heals
 				else if (currentPlayerAttackType < 10) {
 					String[] healingarray = res.getStringArray(R.array.healing);
-					currentPlayerPotion = myrandom.nextInt(healingarray.length);
+					currentPlayerHealing = myrandom.nextInt(healingarray.length);
 					player1.currentHealth += myrandom.nextInt(player1.level
 							+ player1.toughness + player1.intelligence);
 					if (player1.currentHealth > player1.health) {
@@ -318,7 +319,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 				} else if (currentEnemyAttackType < 10) {
 					// enemy heals
 
-					String[] potionarray = res.getStringArray(R.array.healing);
+					String[] potionarray = res.getStringArray(R.array.magichealing);
 					currentEnemyPotion = myrandom.nextInt(potionarray.length);
 					currentMonsterHP += myrandom.nextInt() + 1;
 				}
@@ -994,7 +995,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 		String retString = "";
 		Resources res = getResources();
 		String[] unitsarray = res.getStringArray(R.array.healing);
-		retString = unitsarray[currentPlayerPotion];
+		retString = unitsarray[currentPlayerHealing];
 		return retString;
 	}
 
