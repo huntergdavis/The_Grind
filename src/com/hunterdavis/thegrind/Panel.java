@@ -85,6 +85,7 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	int textColor = Color.WHITE;
 	int introTextColor = Color.BLACK;
 	int plotForwardBuffer = 500;
+
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		synchronized (getHolder()) {
@@ -172,7 +173,8 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	}
 
 	float fdistance(float x1, float y1, float x2, float y2) {
-		return (float) FloatMath.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+		return (float) FloatMath.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1)
+				* (y2 - y1));
 	}
 
 	public void setAutoGrind(boolean autoGrindNew) {
@@ -281,7 +283,8 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 				// heals
 				else if (currentPlayerAttackType < 10) {
 					String[] healingarray = res.getStringArray(R.array.healing);
-					currentPlayerHealing = myrandom.nextInt(healingarray.length);
+					currentPlayerHealing = myrandom
+							.nextInt(healingarray.length);
 					player1.currentHealth += myrandom.nextInt(player1.level
 							+ player1.toughness + player1.intelligence);
 					if (player1.currentHealth > player1.health) {
@@ -319,7 +322,8 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 				} else if (currentEnemyAttackType < 10) {
 					// enemy heals
 
-					String[] potionarray = res.getStringArray(R.array.magichealing);
+					String[] potionarray = res
+							.getStringArray(R.array.magichealing);
 					currentEnemyPotion = myrandom.nextInt(potionarray.length);
 					currentMonsterHP += myrandom.nextInt() + 1;
 				}
@@ -342,10 +346,10 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 					}
 					player1.gold += myrandom.nextInt(myloc + 10);
 				}
-				
+
 				// autosave
 				saveHighScore();
-				
+
 			}
 		} else if (player1.statusNum == 3) {
 			// quest status that don't do anything
@@ -485,15 +489,18 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	}
 
 	public void terminateThread() {
-		canvasthread.setRunning(false);
-		try {
-			canvasthread.join();
-		} catch (InterruptedException e) {
+		if (canvasthread != null) {
+			if (canvasthread.getRunning()) {
+				canvasthread.setRunning(false);
+			}
+			try {
+				canvasthread.join();
+			} catch (InterruptedException e) {
 
+			}
 		}
 	}
 
-	
 	public void surfaceChanged(SurfaceHolder holder, int format, int width,
 			int height) {
 		// reset();
@@ -502,7 +509,6 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	}
 
-	
 	public void surfaceCreated(SurfaceHolder holder) {
 		//
 		if (surfaceCreated == false) {
@@ -513,7 +519,6 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 		}
 	}
 
-	
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		surfaceCreated = false;
 
@@ -749,8 +754,8 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 								getResources(), R.drawable.trollface);
 
 						if (_scratch == null) {
-							Toast.makeText(getContext(), "WTF", Toast.LENGTH_SHORT)
-									.show();
+							Toast.makeText(getContext(), "WTF",
+									Toast.LENGTH_SHORT).show();
 						}
 
 						// now scale the bitmap using the scale value
@@ -809,11 +814,9 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 			PointF statusP = new PointF(3, player1Buffer.y + 7 * (fontSize + 2));
 			PointF realStatusP = new PointF(3, player1Buffer.y + 8
 					* (fontSize + 2));
-			
-			PointF autoP = new PointF(3,
-					mheight / 2 - mheight / 20 - fontSize + 2 * mheight / 30);
-			
-			
+
+			PointF autoP = new PointF(3, mheight / 2 - mheight / 20 - fontSize
+					+ 2 * mheight / 30);
 
 			// draw the level number
 			paint.setColor(textColor);
@@ -879,19 +882,15 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 			canvas.drawText("Status:", statusP.x, statusP.y, paint);
 			canvas.drawText(getStatusText(), realStatusP.x, realStatusP.y,
 					paint);
-			
+
 			// draw the current auto status
 			String autoGrindText = "";
-			if(autoGrind == true) {
+			if (autoGrind == true) {
 				autoGrindText = "AutoGrind On";
 			} else {
 				autoGrindText = "AutoGrind Off";
 			}
-			canvas.drawText(autoGrindText, autoP.x, autoP.y,
-					paint);
-			
-			
-			
+			canvas.drawText(autoGrindText, autoP.x, autoP.y, paint);
 
 		} // introscreen over = true
 		else {
@@ -914,8 +913,8 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 			paint.setTextSize(18);
 			canvas.drawText("Load or Start New Game", mwidth / 2 - 100, mheight
 					- mheight / 6, paint);
-			canvas.drawText("Just Click Your Menu Button", mwidth / 2 - 110, mheight
-					- mheight / 8, paint);
+			canvas.drawText("Just Click Your Menu Button", mwidth / 2 - 110,
+					mheight - mheight / 8, paint);
 		}
 
 	}
