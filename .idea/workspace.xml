@@ -81,13 +81,14 @@
       <file leaf-file-name="TheGrind.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/thegrind/TheGrind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="53" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.38746437" vertical-offset="0" max-vertical-offset="6069">
+            <state line="29" column="29" selection-start="924" selection-end="924" vertical-scroll-proportion="0.55411255" vertical-offset="237" max-vertical-offset="6392">
               <folding>
-                <element signature="e#5227#5235#0" expanded="true" />
-                <element signature="e#5578#5761#0" expanded="true" />
-                <element signature="e#5753#5754#0" expanded="true" />
-                <element signature="e#6270#6453#0" expanded="true" />
-                <element signature="e#6445#6446#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5123#5131#0" expanded="true" />
+                <element signature="e#5474#5657#0" expanded="true" />
+                <element signature="e#5649#5650#0" expanded="true" />
+                <element signature="e#6166#6349#0" expanded="true" />
+                <element signature="e#6341#6342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -527,7 +528,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -539,7 +540,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -579,7 +580,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -673,20 +674,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/src/com/google/example/games/basegameutils/GameHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.31623933" vertical-offset="135" max-vertical-offset="19397">
+        <state line="31" column="44" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.33333334" vertical-offset="135" max-vertical-offset="19346">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hunterdavis/thegrind/TheGrind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="53" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.38746437" vertical-offset="0" max-vertical-offset="6069">
+        <state line="29" column="29" selection-start="924" selection-end="924" vertical-scroll-proportion="0.55411255" vertical-offset="237" max-vertical-offset="6392">
           <folding>
-            <element signature="e#5227#5235#0" expanded="true" />
-            <element signature="e#5578#5761#0" expanded="true" />
-            <element signature="e#5753#5754#0" expanded="true" />
-            <element signature="e#6270#6453#0" expanded="true" />
-            <element signature="e#6445#6446#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5123#5131#0" expanded="true" />
+            <element signature="e#5474#5657#0" expanded="true" />
+            <element signature="e#5649#5650#0" expanded="true" />
+            <element signature="e#6166#6349#0" expanded="true" />
+            <element signature="e#6341#6342#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,7 +745,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>google-play-services_lib</last-edited>
+          <last-edited>The_Grind</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -767,7 +769,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>play services</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

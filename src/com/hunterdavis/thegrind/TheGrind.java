@@ -1,6 +1,5 @@
 package com.hunterdavis.thegrind;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,15 +12,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.crittercism.app.Crittercism;
 
+import com.crittercism.app.Crittercism;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
-import com.google.android.gms.games.GamesClient;
 import com.google.example.games.basegameutils.BaseGameActivity;
 
 public class TheGrind extends BaseGameActivity {
