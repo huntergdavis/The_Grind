@@ -137,6 +137,16 @@ public class Player {
 	void newMagicSpell(int outOfHowMany) {
 		int equipmentNum = myPlayerRandom.nextInt(outOfHowMany);
 		spells.add(equipmentNum);
+
+        int spellBookSize = spells.size();
+
+        if(spellBookSize > 0) {
+            if (spellBookSize > 15 && spellBookSize < 50) {
+                Panel.getAnAchievementDirectly(R.string.achievement_spell1);
+            } else if (spellBookSize > 49) {
+                Panel.getAnAchievementDirectly(R.string.achievement_spell2);
+            }
+        }
 	}
 
 	void newQuestNum(int outOfHowMany) {
@@ -151,16 +161,34 @@ public class Player {
 
 	int swordUp() {
 		currentSword++;
+
+        if (currentSword > 3 && currentSword < 5) {
+            Panel.getAnAchievementDirectly(R.string.achievement_sword1);
+        } else if (currentSword > 4 && currentSword < 8) {
+            Panel.getAnAchievementDirectly(R.string.achievement_sword2);
+        } else if (currentSword > 7) {
+            Panel.getAnAchievementDirectly(R.string.achievement_sword3);
+        }
+
 		return currentSword;
 	}
 
 	int ArmorUp() {
 		currentArmor++;
+
+        Panel.getAnAchievementDirectly(R.string.achievement_armor1);
+        if(currentArmor > 5) {
+            Panel.getAnAchievementDirectly(R.string.achievement_armor2);
+        }
 		return currentArmor;
 	}
 
 	int HelmetUp() {
 		currentHelmet++;
+        if(currentHelmet > 5) {
+            Panel.getAnAchievementDirectly(R.string.achievement_helmet);
+        }
+
 		return currentHelmet;
 	}
 
@@ -209,14 +237,62 @@ public class Player {
 
 	int LevelUp() {
 		level++;
-		health += myPlayerRandom.nextInt(6);
+
+        if (level > 9 && level < 100) {
+            Panel.getAnAchievementDirectly(R.string.achievement_levelten);
+        } else if (level > 99 && level < 1000) {
+            Panel.getAnAchievementDirectly(R.string.achievement_levelonehundred);
+        } else if (level > 1000) {
+            Panel.getAnAchievementDirectly(R.string.achievement_levelonethousand);
+        }
+
+        health += myPlayerRandom.nextInt(6);
+
+        if (health > 30 && health <= 100) {
+            Panel.getAnAchievementDirectly(R.string.achievement_health1);
+        } else if (health > 100) {
+            Panel.getAnAchievementDirectly(R.string.achievement_health2);
+        }
+
 		mana += myPlayerRandom.nextInt(5);
+
+        if (mana > 15 && mana < 50) {
+            Panel.getAnAchievementDirectly(R.string.achievement_magic1);
+        } else if (mana > 50) {
+            Panel.getAnAchievementDirectly(R.string.achievement_magic2);
+        }
+
 		currentHealth = health;
 		currentMana = mana;
 		speed += myPlayerRandom.nextInt(2);
+
+        if (speed > 9 && speed < 50) {
+            Panel.getAnAchievementDirectly(R.string.achievement_speed1);
+        } else if (speed > 49 && speed < 100) {
+            Panel.getAnAchievementDirectly(R.string.achievement_speed2);
+        } else if (speed > 99) {
+            Panel.getAnAchievementDirectly(R.string.achievement_speed3);
+        }
+
+
 		age++;
+
+        if(age > 1000) {
+            Panel.getAnAchievementDirectly(R.string.achievement_veryold);
+        }
+
 		toughness += myPlayerRandom.nextInt(2);
-		intelligence += myPlayerRandom.nextInt(2);
+
+        if (toughness > 9 && toughness < 30) {
+            Panel.getAnAchievementDirectly(R.string.achievement_strength1);
+        } else if (toughness > 29 && toughness < 50) {
+            Panel.getAnAchievementDirectly(R.string.achievement_strength2);
+        } else if (toughness > 49) {
+            Panel.getAnAchievementDirectly(R.string.achievement_strength3);
+        }
+
+
+        intelligence += myPlayerRandom.nextInt(2);
 		wisdom += myPlayerRandom.nextInt(2);
 		newMagicSpell(numSpellDescriptions);
 		return level;

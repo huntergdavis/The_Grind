@@ -1,6 +1,7 @@
 package com.hunterdavis.thegrind;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -19,6 +20,7 @@ import android.widget.Toast;
 import com.crittercism.app.Crittercism;
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
+import com.google.android.gms.games.GamesClient;
 import com.google.example.games.basegameutils.BaseGameActivity;
 
 public class TheGrind extends BaseGameActivity {
@@ -30,6 +32,8 @@ public class TheGrind extends BaseGameActivity {
 	String lastHighScoreName;
 	int SELECT_PICTURE = 22;
 	int SELECT_SHIP = 23;
+    static GamesClient myGc = null;
+    private static Context mContext;
 
     private final String LEADERBOARD_ID = "CgkIqbeC29YJEAIQAg";
 	
@@ -37,6 +41,8 @@ public class TheGrind extends BaseGameActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        mContext = this;
 
 		// crittercism
 		Crittercism.init(getApplicationContext(), "50c21a157e69a3763c000002");
@@ -56,11 +62,17 @@ public class TheGrind extends BaseGameActivity {
 		// "Draw a Line Around Everything Without Touching",
 		// Toast.LENGTH_LONG).show();
 
+
+
 		// Look up the AdView as a resource and load a request.
 		AdView adView = (AdView) this.findViewById(R.id.adView);
 		adView.loadAd(new AdRequest());
 
 	} // end of oncreate
+
+    public static Context getContext(){
+        return mContext;
+    }
 
 	protected void onPause() {
 		super.onPause();
@@ -68,11 +80,20 @@ public class TheGrind extends BaseGameActivity {
 		System.gc();
 	}
 
+    public static GamesClient getStaticGamesClient() {
+        if(myGc != null) {
+            return myGc;
+        } else {
+            return null;
+        }
+    }
+
 	protected void onResume() {
 		super.onResume();
 		if (mypanel.surfaceCreated == true) {
 			mypanel.createThread(mypanel.getHolder());
 		}
+        myGc = getGamesClient();
 	}
 
 	// this is called when the screen rotates.
@@ -133,11 +154,15 @@ public class TheGrind extends BaseGameActivity {
 			}
 		}
 
-        menu.add(5060, 6969, 2, "LeaderBoard");
+
         menu.add(5060, 7000, 2, "Sign In With Google");
         menu.add(5060, 7001, 2, "Sign Out From Google");
+        menu.add(5060, 6969, 2, "LeaderBoard");
+        menu.add(5060, 7003, 2, "View Your Achievements");
+        menu.add(5060, 7002, 2, "Submit Your High Score!");
 
-		return super.onCreateOptionsMenu(menu);
+
+        return super.onCreateOptionsMenu(menu);
 
 	}
 
@@ -173,9 +198,17 @@ public class TheGrind extends BaseGameActivity {
         } else if (i == 7001) {
             // sign out.
             signOut();
-        } else if (i == 7002) {
+        } else if (i == 7003) {
+            startActivityForResult(getGamesClient().getAchievementsIntent(), 187);
+        }
+        else if (i == 7002) {
             if(mypanel != null) {
-                mypanel.saveGoogleHighScoreState(getGamesClient(), LEADERBOARD_ID);
+                if(isSignedIn()) {
+                    mypanel.saveGoogleHighScoreState(getGamesClient(), LEADERBOARD_ID);
+                    Toast.makeText(TheGrind.this,"Thanks!",Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(TheGrind.this,"Must Be Signed In",Toast.LENGTH_SHORT).show();
+                }
             }
         }
         else if (i == 6969) {
@@ -367,11 +400,11 @@ public class TheGrind extends BaseGameActivity {
 
     @Override
     public void onSignInFailed() {
-        Toast.makeText(TheGrind.this,"sign in failed",Toast.LENGTH_SHORT).show();
+        Toast.makeText(TheGrind.this,"Sign in failed or wasn't needed.",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onSignInSucceeded() {
-        //Toast.makeText(TheGrind.this,"sign in succeeded",Toast.LENGTH_SHORT).show();
+        Toast.makeText(TheGrind.this,"Sign in succeeded!",Toast.LENGTH_SHORT).show();
     }
 }

@@ -347,6 +347,12 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 						player1.newEquipmentItem(numberOfEquipmentDescriptions);
 					}
 					player1.gold += myrandom.nextInt(myloc + 10);
+
+                    if(player1.gold > 30000) {
+                        getAnAchievementDirectly(R.string.achievement_money1);
+                    } else if (player1.gold > 3000000) {
+                        getAnAchievementDirectly(R.string.achievement_money2);
+                    }
 				}
 
 				// autosave
@@ -400,6 +406,9 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 			player1.subQuestsDefeatedThisQuest = 0;
 			if (myrandom.nextInt(100) > 88) {
 				player1.maritalStatus++;
+                if(player1.maritalStatus > 3) {
+                    getAnAchievementDirectly(R.string.achievement_love);
+                }
 			}
 			saveHighScore();
 		}
@@ -523,8 +532,19 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	public void surfaceDestroyed(SurfaceHolder holder) {
 		surfaceCreated = false;
-
 	}
+
+    public static void getAnAchievementDirectly(int achievementId) {
+        getAnAchievementWithResourceId(TheGrind.getStaticGamesClient(),achievementId);
+    }
+
+    public static void getAnAchievementWithResourceId(GamesClient gc, int achievementId) {
+        gc.unlockAchievement(TheGrind.getContext().getResources().getString(achievementId));
+    }
+
+    public void getAnAchievement(GamesClient gc, String achievementId) {
+        gc.unlockAchievement(achievementId);
+    }
 
     public void saveGoogleHighScoreState(GamesClient gc, String leaderBoard) {
         if(player1.experience > 0) {
@@ -628,6 +648,10 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	@Override
 	public void onDraw(Canvas canvas) {
+
+        if(canvas == null) {
+            return;
+        }
 
 		mwidth = canvas.getWidth();
 		mheight = canvas.getHeight();

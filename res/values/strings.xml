@@ -1930,5 +1930,30 @@
         <item>Ferles incipient conveyance</item>
         <item>Onbarras hollow turn</item>
     </string-array>
+    <string name="achievement_armor1">CgkIqbeC29YJEAIQAw</string>
+    <string name="achievement_armor2">CgkIqbeC29YJEAIQBA</string>
+    <string name="achievement_health1">CgkIqbeC29YJEAIQBQ</string>
+    <string name="achievement_health2">CgkIqbeC29YJEAIQBg</string>
+    <string name="achievement_magic1">CgkIqbeC29YJEAIQBw</string>
+    <string name="achievement_magic2">CgkIqbeC29YJEAIQCA</string>
+    <string name="achievement_levelten">CgkIqbeC29YJEAIQCQ</string>
+    <string name="achievement_levelonehundred">CgkIqbeC29YJEAIQCg</string>
+    <string name="achievement_levelonethousand">CgkIqbeC29YJEAIQCw</string>
+    <string name="achievement_spell1">CgkIqbeC29YJEAIQDA</string>
+    <string name="achievement_spell2">CgkIqbeC29YJEAIQDQ</string>
+    <string name="achievement_speed1">CgkIqbeC29YJEAIQDg</string>
+    <string name="achievement_speed2">CgkIqbeC29YJEAIQDw</string>
+    <string name="achievement_speed3">CgkIqbeC29YJEAIQEA</string>
+    <string name="achievement_strength1">CgkIqbeC29YJEAIQEQ</string>
+    <string name="achievement_strength2">CgkIqbeC29YJEAIQEg</string>
+    <string name="achievement_strength3">CgkIqbeC29YJEAIQEw</string>
+    <string name="achievement_sword1">CgkIqbeC29YJEAIQFA</string>
+    <string name="achievement_sword2">CgkIqbeC29YJEAIQFQ</string>
+    <string name="achievement_sword3">CgkIqbeC29YJEAIQFg</string>
+    <string name="achievement_veryold">CgkIqbeC29YJEAIQFw</string>
+    <string name="achievement_money1">CgkIqbeC29YJEAIQGA</string>
+    <string name="achievement_money2">CgkIqbeC29YJEAIQGw</string>
+    <string name="achievement_helmet">CgkIqbeC29YJEAIQGQ</string>
+    <string name="achievement_love">CgkIqbeC29YJEAIQGg</string>
 
 </resources>
