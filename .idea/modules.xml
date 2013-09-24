@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/BaseGameUtils.iml" filepath="$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/BaseGameUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/The_Grind.iml" filepath="$PROJECT_DIR$/The_Grind.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../play_services_library/play_services_library.iml" filepath="$PROJECT_DIR$/../play_services_library/play_services_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play_services_library/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/../play_services_library/google-play-services_lib/google-play-services_lib.iml" />
     </modules>
   </component>
 </project>

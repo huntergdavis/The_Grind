@@ -21,6 +21,7 @@ import com.crittercism.app.Crittercism;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
+import com.google.android.gms.games.GamesClient;
 import com.google.example.games.basegameutils.BaseGameActivity;
 
 public class TheGrind extends BaseGameActivity {
@@ -180,7 +181,7 @@ public class TheGrind extends BaseGameActivity {
             signOut();
         }
         else if (i == 6969) {
-            startActivityForResult(mGamesClient.getLeaderboardIntent(LEADERBOARD_ID), 187);
+            startActivityForResult(getGamesClient().getLeaderboardIntent(LEADERBOARD_ID), 187);
         } else if (i == 2625) {
 			ArrayAdapter<String> m_adapterForSpells = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line);;
 			

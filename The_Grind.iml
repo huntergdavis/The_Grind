@@ -15,8 +15,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="libs" level="project" />
     <orderEntry type="library" name="GoogleAdMobAdsSdk-4.1.0" level="project" />
-    <orderEntry type="library" name="play services" level="project" />
-    <orderEntry type="module" module-name="BaseGameUtils" />
+    <orderEntry type="module" module-name="BaseGameUtils" scope="PROVIDED" />
+    <orderEntry type="library" name="google-play-services" level="project" />
   </component>
 </module>
 
