@@ -26,6 +26,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.Toast;
 
+import com.google.android.gms.games.GamesClient;
+
 class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	int SELECT_SHIP = 22;
@@ -524,9 +526,15 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 
 	}
 
+    public void saveGoogleHighScoreState(GamesClient gc, String leaderBoard) {
+        if(player1.experience > 0) {
+            gc.submitScore(leaderBoard, player1.experience);
+        }
+    }
+
 	public int saveHighScore() {
 
-		// see if the name exists and update if so
+        // see if the name exists and update if so
 		boolean update = false;
 
 		SQLiteDatabase db = scoreData.getWritableDatabase();

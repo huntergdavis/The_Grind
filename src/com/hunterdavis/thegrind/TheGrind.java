@@ -42,7 +42,7 @@ public class TheGrind extends BaseGameActivity {
 		Crittercism.init(getApplicationContext(), "50c21a157e69a3763c000002");
 
 		setContentView(R.layout.main);
-		mypanel = (Panel) findViewById(R.id.SurfaceView01); 
+		mypanel = (Panel) findViewById(R.id.SurfaceView01);
 		m_adapterForHighScores = new ArrayAdapter<String>(this,
 				android.R.layout.simple_dropdown_item_1line);
 
@@ -107,20 +107,14 @@ public class TheGrind extends BaseGameActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
-        if(this.isSignedIn()) {
-            menu.add(5060, 6969, 2, "LeaderBoard");
-            menu.add(5060, 7001, 2, "Sign Out From Google");
-        }else {
-            menu.add(5060, 7000, 2, "Sign In With Google");
-        }
-			menu.add(5060, 2625, 2, "Spells");
-			menu.add(5060, 2726, 2, "Equipment");
-			SubMenu playerOptions = menu.addSubMenu("Player Options");
+        menu.add(5060, 2625, 2, "Spells");
+        menu.add(5060, 2726, 2, "Equipment");
+        SubMenu playerOptions = menu.addSubMenu("Player Options");
 
-			int playeropts = 2825;
-			playerOptions.add(playeropts, 2727, 0, "Player Image");
+        int playeropts = 2825;
+        playerOptions.add(playeropts, 2727, 0, "Player Image");
 
-			playerOptions.add(5050, 5051, 1, "Toggle AutoGrind");
+        playerOptions.add(5050, 5051, 1, "Toggle AutoGrind");
 
 		menu.add(5060, 5052, 2, "New Game"); 
 		SubMenu loadGames = menu.addSubMenu("Load Game");
@@ -139,7 +133,10 @@ public class TheGrind extends BaseGameActivity {
 			}
 		}
 
-		
+        menu.add(5060, 6969, 2, "LeaderBoard");
+        menu.add(5060, 7000, 2, "Sign In With Google");
+        menu.add(5060, 7001, 2, "Sign Out From Google");
+
 		return super.onCreateOptionsMenu(menu);
 
 	}
@@ -176,6 +173,10 @@ public class TheGrind extends BaseGameActivity {
         } else if (i == 7001) {
             // sign out.
             signOut();
+        } else if (i == 7002) {
+            if(mypanel != null) {
+                mypanel.saveGoogleHighScoreState(getGamesClient(), LEADERBOARD_ID);
+            }
         }
         else if (i == 6969) {
             startActivityForResult(getGamesClient().getLeaderboardIntent(LEADERBOARD_ID), 187);
@@ -366,11 +367,11 @@ public class TheGrind extends BaseGameActivity {
 
     @Override
     public void onSignInFailed() {
-
+        Toast.makeText(TheGrind.this,"sign in failed",Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onSignInSucceeded() {
-
+        //Toast.makeText(TheGrind.this,"sign in succeeded",Toast.LENGTH_SHORT).show();
     }
 }

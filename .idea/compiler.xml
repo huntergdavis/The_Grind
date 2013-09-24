@@ -5,6 +5,7 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../play_services_library/google-play-services_lib/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

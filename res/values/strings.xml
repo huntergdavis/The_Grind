@@ -3,6 +3,7 @@
 
     <string name="hello">Hello World, EasyKittyCensor!</string>
     <string name="app_name">The Grind</string>
+    <string name="app_id">332513975209</string>
 
     <string-array name="equipment">
         <item>Gold Armor</item>
