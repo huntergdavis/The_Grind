@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -108,7 +109,12 @@ public class TheGrind extends BaseGameActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
-			menu.add(5060, 6969, 2, "Leaderboard");
+        if(this.isSignedIn()) {
+            menu.add(5060, 6969, 2, "LeaderBoard");
+            menu.add(5060, 7001, 2, "Sign Out From Google");
+        }else {
+            menu.add(5060, 7000, 2, "Sign In With Google");
+        }
 			menu.add(5060, 2625, 2, "Spells");
 			menu.add(5060, 2726, 2, "Equipment");
 			SubMenu playerOptions = menu.addSubMenu("Player Options");
@@ -118,9 +124,6 @@ public class TheGrind extends BaseGameActivity {
 
 			playerOptions.add(5050, 5051, 1, "Toggle AutoGrind");
 
-			
-		
-		
 		menu.add(5060, 5052, 2, "New Game"); 
 		SubMenu loadGames = menu.addSubMenu("Load Game");
 
@@ -170,7 +173,13 @@ public class TheGrind extends BaseGameActivity {
 		if (i == 2727) {
 			changeImage();
 			return true;
-		}else if (i == 6969) {
+		}else if (i == 7000) {
+            beginUserInitiatedSignIn();
+        } else if (i == 7001) {
+            // sign out.
+            signOut();
+        }
+        else if (i == 6969) {
             startActivityForResult(mGamesClient.getLeaderboardIntent(LEADERBOARD_ID), 187);
         } else if (i == 2625) {
 			ArrayAdapter<String> m_adapterForSpells = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line);;
@@ -357,4 +366,13 @@ public class TheGrind extends BaseGameActivity {
 				SELECT_SHIP);
 	}
 
+    @Override
+    public void onSignInFailed() {
+
+    }
+
+    @Override
+    public void onSignInSucceeded() {
+
+    }
 }
