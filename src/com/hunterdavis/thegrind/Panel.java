@@ -76,12 +76,12 @@ class Panel extends SurfaceView implements SurfaceHolder.Callback {
 	int numberOfEquipmentDescriptions = 0;
 
 	// tweaking for game mechanics
-	int autoGrindExpDistance = 30;
-	int autoGrindRotation = 5;
+	int autoGrindExpDistance = 20;
+	int autoGrindRotation = 3;
 	Point player1Buffer = new Point(5, 5);
-	int numberSubquestsInQuest = 8;
+	int numberSubquestsInQuest = 20;
 	int numberFightsInSubQuest = 5;
-	int numberLocationsInSubQuest = 5;
+	int numberLocationsInSubQuest = 8;
 	int textColor = Color.WHITE;
 	int introTextColor = Color.BLACK;
 	int plotForwardBuffer = 500;

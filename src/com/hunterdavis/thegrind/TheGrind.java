@@ -20,8 +20,9 @@ import com.crittercism.app.Crittercism;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
+import com.google.example.games.basegameutils.BaseGameActivity;
 
-public class TheGrind extends Activity {
+public class TheGrind extends BaseGameActivity {
 
 	Panel mypanel = null;
 	InventorySQLHelper scoreData = new InventorySQLHelper(this);
@@ -30,6 +31,8 @@ public class TheGrind extends Activity {
 	String lastHighScoreName;
 	int SELECT_PICTURE = 22;
 	int SELECT_SHIP = 23;
+
+    private final String LEADERBOARD_ID = "CgkIqbeC29YJEAIQAg";
 	
 	/** Called when the activity is first created. */
 	@Override
@@ -105,7 +108,7 @@ public class TheGrind extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 
-			
+			menu.add(5060, 6969, 2, "Leaderboard");
 			menu.add(5060, 2625, 2, "Spells");
 			menu.add(5060, 2726, 2, "Equipment");
 			SubMenu playerOptions = menu.addSubMenu("Player Options");
@@ -167,7 +170,9 @@ public class TheGrind extends Activity {
 		if (i == 2727) {
 			changeImage();
 			return true;
-		}else if (i == 2625) {
+		}else if (i == 6969) {
+            startActivityForResult(mGamesClient.getLeaderboardIntent(LEADERBOARD_ID), 187);
+        } else if (i == 2625) {
 			ArrayAdapter<String> m_adapterForSpells = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line);;
 			
 			for (int j = 0; j < mypanel.player1.spells.size(); j++) {

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/BaseGameUtils.iml" filepath="$PROJECT_DIR$/../android-samples/libraries/BaseGameUtils/BaseGameUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/The_Grind.iml" filepath="$PROJECT_DIR$/The_Grind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play_services_library/play_services_library.iml" filepath="$PROJECT_DIR$/../play_services_library/play_services_library.iml" />
+    </modules>
+  </component>
+</project>
+
